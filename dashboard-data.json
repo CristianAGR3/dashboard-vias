@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T17:22:44.098Z",
+  "generatedAt": "2026-05-11T17:45:43.579Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -30,7 +30,7 @@
       "segmento": "ARA",
       "codigo": "ARA06",
       "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 2533
+      "stock": 2531
     },
     {
       "segmento": "ARA",
@@ -510,7 +510,7 @@
       "segmento": "ARA",
       "codigo": "ARA31",
       "descripcion": "MELA-AGLO. MONARCA  TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 197
+      "stock": 193
     },
     {
       "segmento": "ARA",
@@ -3324,7 +3324,7 @@
       "segmento": "MC",
       "codigo": "MC26",
       "descripcion": "MELA-MDF BLANCO ICE  2/C 4.6MM 1.22 X 2.44 (MCCORRY)",
-      "stock": 1280
+      "stock": 1278
     },
     {
       "segmento": "MC",
@@ -3606,7 +3606,7 @@
       "segmento": "MDF",
       "codigo": "MDF43",
       "descripcion": "MDF CHAPA ENCINO 2/C 18MM 1.22 X 2.44",
-      "stock": 18
+      "stock": 16
     },
     {
       "segmento": "MDF",
@@ -3642,7 +3642,7 @@
       "segmento": "MDF",
       "codigo": "MDF49",
       "descripcion": "MDF CHAPA OKUME 2/C 18MM  1.22 X 2.44",
-      "stock": 53
+      "stock": 51
     },
     {
       "segmento": "MDF",
@@ -5747,6 +5747,56 @@
       "cantidad": 220,
       "ticket": 299916,
       "razon": "PD"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "ARA06",
+      "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 303879,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "ARA31",
+      "descripcion": "MELA-AGLO. MONARCA  TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 4,
+      "ticket": 303879,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "MDF49",
+      "descripcion": "MDF CHAPA OKUME 2/C 18MM  1.22 X 2.44",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 303879,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "MDF43",
+      "descripcion": "MDF CHAPA ENCINO 2/C 18MM 1.22 X 2.44",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 303879,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "MC26",
+      "descripcion": "MELA-MDF BLANCO ICE  2/C 4.6MM 1.22 X 2.44 (MCCORRY)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 303879,
+      "razon": "LG"
     },
     {
       "fechaSerial": 46151,
@@ -138923,8 +138973,8 @@
     {
       "codigo": "ARA06",
       "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "movimientos": 271,
-      "cantidad": 4795
+      "movimientos": 272,
+      "cantidad": 4797
     },
     {
       "codigo": "ARA68",
@@ -138965,8 +139015,8 @@
     {
       "codigo": "MC26",
       "descripcion": "MELA-MDF BLANCO ICE  2/C 4.6MM 1.22 X 2.44 (MCCORRY)",
-      "movimientos": 167,
-      "cantidad": 688
+      "movimientos": 168,
+      "cantidad": 690
     },
     {
       "codigo": "CUBR84",
@@ -139025,8 +139075,8 @@
     {
       "codigo": "ARA31",
       "descripcion": "MELA-AGLO. MONARCA  TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "movimientos": 33,
-      "cantidad": 496
+      "movimientos": 34,
+      "cantidad": 500
     },
     {
       "codigo": "NAV14",
@@ -139084,8 +139134,8 @@
     },
     {
       "razon": "LG",
-      "movimientos": 1735,
-      "cantidad": 9345
+      "movimientos": 1740,
+      "cantidad": 9357
     },
     {
       "razon": "Traspasos enviados a tienda",
