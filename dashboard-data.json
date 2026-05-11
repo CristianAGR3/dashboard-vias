@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T17:05:40.743Z",
+  "generatedAt": "2026-05-11T17:22:44.098Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -30,7 +30,7 @@
       "segmento": "ARA",
       "codigo": "ARA06",
       "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 2608
+      "stock": 2533
     },
     {
       "segmento": "ARA",
@@ -660,7 +660,7 @@
       "segmento": "ARA",
       "codigo": "ARA58",
       "descripcion": "MEL-AGLO. CHARDONAY TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 686
+      "stock": 466
     },
     {
       "segmento": "ARA",
@@ -1008,7 +1008,7 @@
       "segmento": "ASIG",
       "codigo": "ASIG25",
       "descripcion": "MELA-MDF S. MATTE BLANCO 2/C 15MM 1.22 X 2.44 (ASIGMA)",
-      "stock": 138
+      "stock": 135
     },
     {
       "segmento": "ASIG",
@@ -5717,6 +5717,36 @@
       "cantidad": 6,
       "ticket": 303929,
       "razon": "RT"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "ASIG25",
+      "descripcion": "MELA-MDF S. MATTE BLANCO 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 193559,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "ARA06",
+      "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 75,
+      "ticket": 299916,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "ARA58",
+      "descripcion": "MEL-AGLO. CHARDONAY TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 220,
+      "ticket": 299916,
+      "razon": "PD"
     },
     {
       "fechaSerial": 46151,
@@ -138893,8 +138923,8 @@
     {
       "codigo": "ARA06",
       "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "movimientos": 270,
-      "cantidad": 4720
+      "movimientos": 271,
+      "cantidad": 4795
     },
     {
       "codigo": "ARA68",
@@ -138987,6 +139017,12 @@
       "cantidad": 532
     },
     {
+      "codigo": "ARA58",
+      "descripcion": "MEL-AGLO. CHARDONAY TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "movimientos": 34,
+      "cantidad": 514
+    },
+    {
       "codigo": "ARA31",
       "descripcion": "MELA-AGLO. MONARCA  TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
       "movimientos": 33,
@@ -139033,19 +139069,13 @@
       "descripcion": "MELA-MDF BCO. FROSTY MATE  2/C 18MM 1.22 X 2.44 (ARAUCO)",
       "movimientos": 62,
       "cantidad": 374
-    },
-    {
-      "codigo": "TKS-03",
-      "descripcion": "PLACA TIPO MARMOL AGATA 1/C 3MM 1.22 X 2.44 (TK-ST)",
-      "movimientos": 175,
-      "cantidad": 372
     }
   ],
   "reasons": [
     {
       "razon": "PD",
-      "movimientos": 4370,
-      "cantidad": 23016
+      "movimientos": 4373,
+      "cantidad": 23314
     },
     {
       "razon": "RT",
