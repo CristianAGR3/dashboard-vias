@@ -1,80 +1,297 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dashboard Vias</title>
-    <link rel="stylesheet" href="/styles.css">
-  </head>
-  <body>
-    <header class="topbar">
-      <div>
-        <p class="eyebrow">Dashboard</p>
-        <h1>Control de inventario y movimientos</h1>
-      </div>
-      <button id="refreshBtn" class="icon-button" title="Actualizar datos">Actualizar</button>
-    </header>
 
-    <nav class="tabs" aria-label="Secciones">
-      <button class="tab active" data-tab="inventario">Inventario</button>
-      <button class="tab" data-tab="movimientos">Movimientos</button>
-      <button class="tab" data-tab="proveedores">Proveedores</button>
-      <button class="tab" data-tab="duplicados">Duplicados</button>
-    </nav>
+<head>
 
-    <main>
-      <section id="inventario" class="panel active">
-        <div class="grid two">
-          <section class="surface">
-            <h2>Buscar material</h2>
-            <input id="inventorySearch" class="input" placeholder="Codigo o descripcion">
-            <div id="inventoryResults" class="results"></div>
-          </section>
-          <section class="surface">
-            <h2>Mayor movimiento PD, LG, RT</h2>
-            <div id="topMaterials" class="table-wrap"></div>
-          </section>
-        </div>
-      </section>
+  <meta charset="utf-8">
 
-      <section id="movimientos" class="panel">
-        <div class="grid two">
-          <section class="surface">
-            <h2>Historial por codigo</h2>
-            <input id="movementSearch" class="input" placeholder="Codigo del material">
-            <div id="movementResults" class="table-wrap"></div>
-          </section>
-          <section class="surface">
-            <h2>Razones predominantes</h2>
-            <div id="reasonBars" class="bars"></div>
-          </section>
-        </div>
-      </section>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
 
-      <section id="proveedores" class="panel">
-        <div class="grid two">
-          <section class="surface">
-            <h2>Recepcion por proveedor</h2>
-            <div id="providerBars" class="bars"></div>
-          </section>
-          <section class="surface">
-            <h2>Entradas por proveedor</h2>
-            <select id="providerSelect" class="input"></select>
-            <div id="providerEntries" class="table-wrap"></div>
-          </section>
-        </div>
-      </section>
+  <title>Dashboard Vias</title>
 
-      <section id="duplicados" class="panel">
+  <link rel="stylesheet"
+        href="/styles.css">
+
+</head>
+
+<body>
+
+  <!-- ========================= -->
+  <!-- HEADER -->
+  <!-- ========================= -->
+
+  <header class="topbar">
+
+    <div>
+      <p class="eyebrow">Dashboard</p>
+      <h1>Control de inventario y movimientos</h1>
+    </div>
+
+    <button id="refreshBtn"
+            class="icon-button"
+            title="Actualizar datos">
+
+      Actualizar
+
+    </button>
+
+  </header>
+
+
+  <!-- ========================= -->
+  <!-- TABS -->
+  <!-- ========================= -->
+
+  <nav class="tabs"
+       aria-label="Secciones">
+
+    <button class="tab active"
+            data-tab="inventario">
+
+      Inventario
+
+    </button>
+
+    <button class="tab"
+            data-tab="movimientos">
+
+      Movimientos
+
+    </button>
+
+    <button class="tab"
+            data-tab="proveedores">
+
+      Proveedores
+
+    </button>
+
+    <button class="tab"
+            data-tab="duplicados">
+
+      Duplicados
+
+    </button>
+
+    <!-- NUEVO -->
+    <button class="tab"
+            data-tab="busqueda">
+
+      Buscador
+
+    </button>
+
+  </nav>
+
+
+  <!-- ========================= -->
+  <!-- MAIN -->
+  <!-- ========================= -->
+
+  <main>
+
+    <!-- ========================= -->
+    <!-- INVENTARIO -->
+    <!-- ========================= -->
+
+    <section id="inventario"
+             class="panel active">
+
+      <div class="grid two">
+
         <section class="surface">
-          <h2>Duplicados detectados</h2>
-          <input id="duplicateSearch" class="input" placeholder="Filtrar por codigo, ticket o razon">
-          <div id="duplicatesTable" class="table-wrap"></div>
-        </section>
-      </section>
-    </main>
 
-    <footer id="status"></footer>
-    <script src="/app.js"></script>
-  </body>
+          <h2>Buscar material</h2>
+
+          <input id="inventorySearch"
+                 class="input"
+                 placeholder="Codigo o descripcion">
+
+          <div id="inventoryResults"
+               class="results"></div>
+
+        </section>
+
+        <section class="surface">
+
+          <h2>Mayor movimiento PD, LG, RT</h2>
+
+          <div id="topMaterials"
+               class="table-wrap"></div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- MOVIMIENTOS -->
+    <!-- ========================= -->
+
+    <section id="movimientos"
+             class="panel">
+
+      <div class="grid two">
+
+        <section class="surface">
+
+          <h2>Historial por codigo</h2>
+
+          <input id="movementSearch"
+                 class="input"
+                 placeholder="Codigo del material">
+
+          <div id="movementResults"
+               class="table-wrap"></div>
+
+        </section>
+
+        <section class="surface">
+
+          <h2>Razones predominantes</h2>
+
+          <div id="reasonBars"
+               class="bars"></div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- PROVEEDORES -->
+    <!-- ========================= -->
+
+    <section id="proveedores"
+             class="panel">
+
+      <div class="grid two">
+
+        <section class="surface">
+
+          <h2>Recepcion por proveedor</h2>
+
+          <div id="providerBars"
+               class="bars"></div>
+
+        </section>
+
+        <section class="surface">
+
+          <h2>Entradas por proveedor</h2>
+
+          <select id="providerSelect"
+                  class="input"></select>
+
+          <div id="providerEntries"
+               class="table-wrap"></div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- DUPLICADOS -->
+    <!-- ========================= -->
+
+    <section id="duplicados"
+             class="panel">
+
+      <section class="surface">
+
+        <h2>Duplicados detectados</h2>
+
+        <input id="duplicateSearch"
+               class="input"
+               placeholder="Filtrar por codigo, ticket o razon">
+
+        <div id="duplicatesTable"
+             class="table-wrap"></div>
+
+      </section>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- NUEVO BUSCADOR -->
+    <!-- ========================= -->
+
+    <section id="busqueda"
+             class="panel">
+
+      <section class="surface">
+
+        <h2>Buscador operativo</h2>
+
+        <div class="search-row">
+
+          <!-- CODIGO -->
+          <input id="searchCodigo"
+                 class="input"
+                 placeholder="Codigo">
+
+          <!-- TICKET -->
+          <input id="searchTicket"
+                 class="input"
+                 placeholder="Ticket">
+
+          <!-- FECHA INICIO -->
+          <input id="searchFechaInicio"
+                 type="date"
+                 class="input">
+
+          <!-- FECHA FIN -->
+          <input id="searchFechaFin"
+                 type="date"
+                 class="input">
+
+          <!-- BOTON -->
+          <button id="searchBtn"
+                  class="primary-button">
+
+            Buscar
+
+          </button>
+
+        </div>
+
+        <!-- RESUMEN -->
+        <div id="searchSummary"
+             class="summary"></div>
+
+        <!-- RESULTADOS -->
+        <div id="searchResults"
+             class="table-wrap"></div>
+
+      </section>
+
+    </section>
+
+  </main>
+
+
+  <!-- ========================= -->
+  <!-- FOOTER -->
+  <!-- ========================= -->
+
+  <footer id="status"></footer>
+
+
+  <!-- ========================= -->
+  <!-- JS -->
+  <!-- ========================= -->
+
+  <script src="/app.js"></script>
+
+</body>
+
 </html>
