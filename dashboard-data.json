@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T14:37:34.797Z",
+  "generatedAt": "2026-05-11T14:49:20.296Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -30,7 +30,7 @@
       "segmento": "ARA",
       "codigo": "ARA06",
       "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 2608
+      "stock": 2510
     },
     {
       "segmento": "ARA",
@@ -5617,6 +5617,16 @@
       "cantidad": 6,
       "ticket": "",
       "razon": "entrada por error de traspaso"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "ARA06",
+      "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 98,
+      "ticket": 555,
+      "razon": "RT"
     },
     {
       "fechaSerial": 46151,
@@ -138793,8 +138803,8 @@
     {
       "codigo": "ARA06",
       "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "movimientos": 270,
-      "cantidad": 4720
+      "movimientos": 271,
+      "cantidad": 4818
     },
     {
       "codigo": "ARA68",
@@ -138949,8 +138959,8 @@
     },
     {
       "razon": "RT",
-      "movimientos": 3674,
-      "cantidad": 16143
+      "movimientos": 3675,
+      "cantidad": 16241
     },
     {
       "razon": "LG",
