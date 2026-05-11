@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-11T03:33:17.914Z",
-  "excelPath": "C:\\Users\\Crist\\Documents\\Codex\\2026-05-09\\files-mentioned-by-the-user-1\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
+  "generatedAt": "2026-05-11T14:30:08.412Z",
+  "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
       "segmento": "AGLO",
@@ -5609,8 +5609,8 @@
   ],
   "movements": [
     {
-      "fechaSerial": 46152,
-      "fecha": "2026-05-10",
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
       "codigo": "ARA14",
       "descripcion": "",
       "tipo": "Entrada",
