@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T20:38:42.608Z",
+  "generatedAt": "2026-05-11T21:34:34.468Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -444,7 +444,7 @@
       "segmento": "ARA",
       "codigo": "ARA20",
       "descripcion": "MELA-AGLO. ESPIGA TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 100
+      "stock": 94
     },
     {
       "segmento": "ARA",
@@ -3540,7 +3540,7 @@
       "segmento": "MDF",
       "codigo": "MDF312",
       "descripcion": "MDF 12MM TRUPAN CHILENO",
-      "stock": 493
+      "stock": 421
     },
     {
       "segmento": "MDF",
@@ -3648,7 +3648,7 @@
       "segmento": "MDF",
       "codigo": "MDF50",
       "descripcion": "MDF CHAPA OKUME 2/C 4MM 1.22 X 2.44",
-      "stock": 182
+      "stock": 180
     },
     {
       "segmento": "MDF",
@@ -4350,7 +4350,7 @@
       "segmento": "NAV",
       "codigo": "NAV16",
       "descripcion": "MELA-MDF WENGUE TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "stock": 427
+      "stock": 371
     },
     {
       "segmento": "NAV",
@@ -4392,7 +4392,7 @@
       "segmento": "NAV",
       "codigo": "NAV23",
       "descripcion": "MELA-MDF NEGRO 2/C 15MM 1.22 X 2.44 (NAVETTA)",
-      "stock": 732
+      "stock": 676
     },
     {
       "segmento": "NAV",
@@ -4416,7 +4416,7 @@
       "segmento": "NAV",
       "codigo": "NAV27",
       "descripcion": "MELA-MDF ROBLE CENIZO TX 2C 15 MM 1.22 X 2.44 (NAVETTA)",
-      "stock": 68
+      "stock": 65
     },
     {
       "segmento": "NAV",
@@ -5064,7 +5064,7 @@
       "segmento": "TPY",
       "codigo": "TPY26",
       "descripcion": "PINO 18MM 1.22 X 2.44 (CC) NACIONAL RADIATA",
-      "stock": 451
+      "stock": 401
     },
     {
       "segmento": "TPY",
@@ -5827,6 +5827,76 @@
       "cantidad": 21,
       "ticket": 1008,
       "razon": "GAVILAN"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "MDF50",
+      "descripcion": "MDF CHAPA OKUME 2/C 4MM 1.22 X 2.44",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 193936,
+      "razon": "Traspasos enviados a tienda"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "NAV27",
+      "descripcion": "MELA-MDF ROBLE CENIZO TX 2C 15 MM 1.22 X 2.44 (NAVETTA)",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 193936,
+      "razon": "Traspasos enviados a tienda"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "ARA20",
+      "descripcion": "MELA-AGLO. ESPIGA TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 6,
+      "ticket": 193907,
+      "razon": "Traspasos enviados a tienda"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "MDF312",
+      "descripcion": "MDF 12MM TRUPAN CHILENO",
+      "tipo": "Salida",
+      "cantidad": 72,
+      "ticket": "",
+      "razon": "Traspasos enviados a tienda"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "TPY26",
+      "descripcion": "PINO 18MM 1.22 X 2.44 (CC) NACIONAL RADIATA",
+      "tipo": "Salida",
+      "cantidad": 50,
+      "ticket": "",
+      "razon": "Traspasos enviados a tienda"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "NAV16",
+      "descripcion": "MELA-MDF WENGUE TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "tipo": "Salida",
+      "cantidad": 56,
+      "ticket": "",
+      "razon": "Traspasos enviados a tienda"
+    },
+    {
+      "fechaSerial": 46153,
+      "fecha": "2026-05-11",
+      "codigo": "NAV23",
+      "descripcion": "MELA-MDF NEGRO 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "tipo": "Salida",
+      "cantidad": 56,
+      "ticket": "",
+      "razon": "Traspasos enviados a tienda"
     },
     {
       "fechaSerial": 46151,
@@ -139169,8 +139239,8 @@
     },
     {
       "razon": "Traspasos enviados a tienda",
-      "movimientos": 1157,
-      "cantidad": 57042
+      "movimientos": 1164,
+      "cantidad": 57287
     },
     {
       "razon": "INVENTARIO NEW",
