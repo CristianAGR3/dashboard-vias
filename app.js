@@ -25,7 +25,7 @@ function monthStartIso() {
 function table(columns, rows) {
   if (!rows.length) return '<div class="empty">Sin resultados.</div>';
   return `<table><thead><tr>${columns.map((col) => `<th>${col.label}</th>`).join("")}</tr></thead><tbody>${
-    rows.map((row) => `<tr>${columns.map((col) => `<td data-label="${escapeHtml(col.label)}">${escapeHtml(row[col.key] ?? "")}</td>`).join("")}</tr>`).join("")
+    rows.map((row) => `<tr>${columns.map((col) => `<td>${escapeHtml(row[col.key] ?? "")}</td>`).join("")}</tr>`).join("")
   }</tbody></table>`;
 }
 
