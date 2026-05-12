@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T03:07:26.238Z",
+  "generatedAt": "2026-05-12T03:15:48.359Z",
   "excelPath": "C:\\Users\\Crist\\Documents\\Codex\\2026-05-09\\files-mentioned-by-the-user-1\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -5611,16 +5611,6 @@
     {
       "fechaSerial": 46153,
       "fecha": "2026-05-11",
-      "codigo": "ARA14",
-      "descripcion": "",
-      "tipo": "Entrada",
-      "cantidad": 6,
-      "ticket": "",
-      "razon": "entrada por error de traspaso"
-    },
-    {
-      "fechaSerial": 46153,
-      "fecha": "2026-05-11",
       "codigo": "TKS-03",
       "descripcion": "PLACA TIPO MARMOL AGATA 1/C 3MM 1.22 X 2.44 (TK-ST)",
       "tipo": "Salida",
@@ -6197,6 +6187,16 @@
       "cantidad": 1,
       "ticket": 304021,
       "razon": "RT"
+    },
+    {
+      "fechaSerial": 46151,
+      "fecha": "2026-05-09",
+      "codigo": "ARA14",
+      "descripcion": "",
+      "tipo": "Entrada",
+      "cantidad": 6,
+      "ticket": "",
+      "razon": "ERROR EN TRASPASO"
     },
     {
       "fechaSerial": 46151,
@@ -10435,7 +10435,7 @@
       "descripcion": "MELA-MDF OXFORD TX. 2/C 15MM 1.22 X2.44 (ASIGMA)",
       "tipo": "Entrada",
       "cantidad": 120,
-      "ticket": 2575,
+      "ticket": 2574,
       "razon": ""
     },
     {
@@ -32685,7 +32685,7 @@
       "descripcion": "CLIP ACERO INOX. P/WPC LAMBRIN INTERIOR 34MM X 49 (TK-ST)",
       "tipo": "Salida",
       "cantidad": 4000,
-      "ticket": 2460,
+      "ticket": 2459,
       "razon": ""
     },
     {
@@ -139914,7 +139914,7 @@
       "descripcion": "MELA-MDF OXFORD TX. 2/C 15MM 1.22 X2.44 (ASIGMA)",
       "piezas": 120,
       "proveedor": "ASIGMA",
-      "orden": 2575,
+      "orden": 2574,
       "origen": "Movimientos"
     },
     {
