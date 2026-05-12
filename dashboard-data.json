@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T17:50:50.973Z",
+  "generatedAt": "2026-05-12T20:23:48.555Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -30,7 +30,7 @@
       "segmento": "ARA",
       "codigo": "ARA06",
       "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 3387
+      "stock": 4268
     },
     {
       "segmento": "ARA",
@@ -288,7 +288,7 @@
       "segmento": "ARA",
       "codigo": "ARA14",
       "descripcion": "MELA-AGLO. EBANO INDI TX.  2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 90
+      "stock": 96
     },
     {
       "segmento": "ARA",
@@ -5857,6 +5857,16 @@
       "razon": "RT"
     },
     {
+      "fechaSerial": 46154,
+      "fecha": "2026-05-12",
+      "codigo": "ARA06",
+      "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Entrada",
+      "cantidad": 881,
+      "ticket": 968,
+      "razon": "ARAUCO"
+    },
+    {
       "fechaSerial": 46153,
       "fecha": "2026-05-11",
       "codigo": "TKS-03",
@@ -7195,6 +7205,16 @@
       "cantidad": 1,
       "ticket": 193832,
       "razon": "RT"
+    },
+    {
+      "fechaSerial": 46150,
+      "fecha": "2026-05-08",
+      "codigo": "ARA14",
+      "descripcion": "MELA-AGLO. EBANO INDI TX.  2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Entrada",
+      "cantidad": 6,
+      "ticket": "N/A",
+      "razon": "RAZON PENDIENTE"
     },
     {
       "fechaSerial": 46149,
@@ -10673,7 +10693,7 @@
       "descripcion": "MELA-MDF OXFORD TX. 2/C 15MM 1.22 X2.44 (ASIGMA)",
       "tipo": "Entrada",
       "cantidad": 120,
-      "ticket": 2574,
+      "ticket": 2573,
       "razon": ""
     },
     {
@@ -30923,7 +30943,7 @@
       "descripcion": "ANGULO P/LAMBRIN INTERIOR BAHIA 30 X 30 X 2900MM (TK-ST)",
       "tipo": "Salida",
       "cantidad": 4,
-      "ticket": 2105,
+      "ticket": 2104,
       "razon": ""
     },
     {
@@ -30933,7 +30953,7 @@
       "descripcion": "ANGULO P/LAMBRIN INTERIOR SAO PAULO 30 X 30 X 2900MM (TK-ST)",
       "tipo": "Entrada",
       "cantidad": 4,
-      "ticket": 2105,
+      "ticket": 2104,
       "razon": ""
     },
     {
@@ -30943,7 +30963,7 @@
       "descripcion": "ANGULO P/LAMBRIN INTERIOR BRASILIA 30 X 30 X 2900MM (TK-ST)",
       "tipo": "Entrada",
       "cantidad": 4,
-      "ticket": 2105,
+      "ticket": 2104,
       "razon": ""
     },
     {
@@ -30953,7 +30973,7 @@
       "descripcion": "ANGULO P/LAMBRIN INTERIOR RODEIRO 30 X 30 X 2900MM (TK-ST)",
       "tipo": "Entrada",
       "cantidad": 1,
-      "ticket": 2105,
+      "ticket": 2104,
       "razon": ""
     },
     {
@@ -32923,7 +32943,7 @@
       "descripcion": "CLIP ACERO INOX. P/WPC LAMBRIN INTERIOR 34MM X 49 (TK-ST)",
       "tipo": "Salida",
       "cantidad": 4000,
-      "ticket": 2459,
+      "ticket": 2458,
       "razon": ""
     },
     {
@@ -72844,7 +72864,7 @@
       "tipo": "Salida",
       "cantidad": 98,
       "ticket": "",
-      "razon": "cambio codigo"
+      "razon": "CAMBIO DE CODIGO"
     },
     {
       "fechaSerial": 46022,
@@ -72854,7 +72874,7 @@
       "tipo": "Entrada",
       "cantidad": 98,
       "ticket": "",
-      "razon": "cambio codigo"
+      "razon": "CAMBIO DE CODIGO"
     },
     {
       "fechaSerial": 46021,
@@ -83004,7 +83024,7 @@
       "tipo": "Salida",
       "cantidad": 10,
       "ticket": "",
-      "razon": "cambio codigo"
+      "razon": "CAMBIO DE CODIGO"
     },
     {
       "fechaSerial": 46004,
@@ -83014,7 +83034,7 @@
       "tipo": "Entrada",
       "cantidad": 10,
       "ticket": "",
-      "razon": "cambio codigo"
+      "razon": "CAMBIO DE CODIGO"
     },
     {
       "fechaSerial": 46004,
@@ -139822,8 +139842,8 @@
     },
     {
       "razon": "ARAUCO",
-      "movimientos": 58,
-      "cantidad": 18291
+      "movimientos": 59,
+      "cantidad": 19172
     },
     {
       "razon": "CANTAB",
@@ -139871,6 +139891,11 @@
       "cantidad": 4397
     },
     {
+      "razon": "CAMBIO DE CODIGO",
+      "movimientos": 9,
+      "cantidad": 2077
+    },
+    {
       "razon": "PRODUCTORA",
       "movimientos": 9,
       "cantidad": 2280
@@ -139879,11 +139904,6 @@
       "razon": "MUESTRARIOS",
       "movimientos": 8,
       "cantidad": 8
-    },
-    {
-      "razon": "DURAPLAY",
-      "movimientos": 6,
-      "cantidad": 2849
     }
   ],
   "providers": [
@@ -139905,8 +139925,8 @@
   "providerSummary": [
     {
       "proveedor": "ARAUCO",
-      "entradas": 211,
-      "piezas": 27590
+      "entradas": 213,
+      "piezas": 28477
     },
     {
       "proveedor": "GAVILAN",
@@ -139976,6 +139996,16 @@
   ],
   "providerEntries": [
     {
+      "fecha": "2026-05-12",
+      "fechaSerial": 46154,
+      "codigo": "ARA06",
+      "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "piezas": 881,
+      "proveedor": "ARAUCO",
+      "orden": 968,
+      "origen": "Movimientos"
+    },
+    {
       "fecha": "2026-05-11",
       "fechaSerial": 46153,
       "codigo": "ARA06",
@@ -140003,6 +140033,16 @@
       "piezas": 21,
       "proveedor": "GAVILAN",
       "orden": 1008,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-05-08",
+      "fechaSerial": 46150,
+      "codigo": "ARA14",
+      "descripcion": "MELA-AGLO. EBANO INDI TX.  2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "piezas": 6,
+      "proveedor": "ARAUCO",
+      "orden": "N/A",
       "origen": "Movimientos"
     },
     {
@@ -140152,7 +140192,7 @@
       "descripcion": "MELA-MDF OXFORD TX. 2/C 15MM 1.22 X2.44 (ASIGMA)",
       "piezas": 120,
       "proveedor": "ASIGMA",
-      "orden": 2574,
+      "orden": 2573,
       "origen": "Movimientos"
     },
     {
