@@ -18,6 +18,8 @@
     <nav class="tabs" aria-label="Secciones">
       <button class="tab active" data-tab="inventario">Inventario</button>
       <button class="tab" data-tab="movimientos">Movimientos</button>
+      <button class="tab" data-tab="busqueda">Busqueda avanzada</button>
+      <button class="tab" data-tab="alertas">Alertas</button>
       <button class="tab" data-tab="proveedores">Proveedores</button>
       <button class="tab" data-tab="duplicados">Duplicados</button>
     </nav>
@@ -47,6 +49,49 @@
           <section class="surface">
             <h2>Razones predominantes</h2>
             <div id="reasonBars" class="bars"></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="busqueda" class="panel">
+        <section class="surface">
+          <h2>Buscar movimientos</h2>
+          <div class="filters">
+            <input id="advancedTicket" class="input" placeholder="Ticket o factura">
+            <input id="advancedText" class="input" placeholder="Codigo, descripcion o razon">
+            <select id="advancedPreset" class="input">
+              <option value="all">Todas las fechas</option>
+              <option value="today">Movimientos de hoy</option>
+              <option value="yesterday">Movimientos de ayer</option>
+              <option value="last7">Ultimos 7 dias</option>
+              <option value="thisMonth">Este mes</option>
+              <option value="custom">Rango personalizado</option>
+            </select>
+            <input id="advancedFrom" class="input" type="date">
+            <input id="advancedTo" class="input" type="date">
+            <select id="advancedType" class="input">
+              <option value="">Entrada y salida</option>
+              <option value="Entrada">Solo entradas</option>
+              <option value="Salida">Solo salidas</option>
+            </select>
+            <select id="advancedReason" class="input">
+              <option value="">Todas las razones</option>
+            </select>
+          </div>
+          <div id="advancedSummary" class="summary-strip"></div>
+          <div id="advancedResults" class="table-wrap"></div>
+        </section>
+      </section>
+
+      <section id="alertas" class="panel">
+        <div class="grid two">
+          <section class="surface">
+            <h2>Duplicados desde movimientos</h2>
+            <div id="movementDuplicateAlerts" class="alerts"></div>
+          </section>
+          <section class="surface">
+            <h2>Materiales por acabarse</h2>
+            <div id="stockAlerts" class="alerts"></div>
           </section>
         </div>
       </section>

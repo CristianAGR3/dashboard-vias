@@ -2,6 +2,25 @@ let dashboard = null;
 
 const $ = (selector) => document.querySelector(selector);
 const normal = (value) => String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase();
+const moneylessNumber = (value) => Number(value || 0).toLocaleString("es-MX");
+
+function todayIso(offsetDays = 0) {
+  const date = new Date();
+  date.setDate(date.getDate() + offsetDays);
+  return toIsoDate(date);
+}
+
+function toIsoDate(date) {
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, "0");
+  const d = String(date.getDate()).padStart(2, "0");
+  return `${y}-${m}-${d}`;
+}
+
+function monthStartIso() {
+  const date = new Date();
+  return toIsoDate(new Date(date.getFullYear(), date.getMonth(), 1));
+}
 
 function table(columns, rows) {
   if (!rows.length) return '<div class="empty">Sin resultados.</div>';
@@ -40,6 +59,8 @@ async function loadData() {
   renderStatic();
   renderInventory();
   renderMovements();
+  renderAdvancedSearch();
+  renderAlerts();
   renderProviders();
   renderDuplicates();
   $("#status").textContent = `Actualizado: ${new Date(dashboard.generatedAt).toLocaleString("es-MX")}`;
@@ -55,6 +76,8 @@ function renderStatic() {
   bars("#reasonBars", dashboard.reasons.slice(0, 14), "razon", "movimientos");
   bars("#providerBars", dashboard.providerSummary, "proveedor", "piezas");
   $("#providerSelect").innerHTML = dashboard.providers.map((provider) => `<option value="${escapeHtml(provider)}">${escapeHtml(provider)}</option>`).join("");
+  $("#advancedReason").innerHTML = '<option value="">Todas las razones</option>' +
+    dashboard.reasons.map((row) => `<option value="${escapeHtml(row.razon)}">${escapeHtml(row.razon)}</option>`).join("");
 }
 
 function renderInventory() {
@@ -84,6 +107,152 @@ function renderMovements() {
     { key: "ticket", label: "Ticket" },
     { key: "razon", label: "Razon" },
   ], rows);
+}
+
+function currentAdvancedRange() {
+  const preset = $("#advancedPreset").value;
+  if (preset === "today") return { from: todayIso(), to: todayIso() };
+  if (preset === "yesterday") return { from: todayIso(-1), to: todayIso(-1) };
+  if (preset === "last7") return { from: todayIso(-6), to: todayIso() };
+  if (preset === "thisMonth") return { from: monthStartIso(), to: todayIso() };
+  if (preset === "all") return { from: "", to: "" };
+  return { from: $("#advancedFrom").value, to: $("#advancedTo").value };
+}
+
+function syncAdvancedDateInputs() {
+  const preset = $("#advancedPreset").value;
+  const range = currentAdvancedRange();
+  if (preset !== "custom") {
+    $("#advancedFrom").value = range.from;
+    $("#advancedTo").value = range.to;
+  }
+  $("#advancedFrom").disabled = preset !== "custom";
+  $("#advancedTo").disabled = preset !== "custom";
+}
+
+function filterAdvancedMovements() {
+  const ticket = normal($("#advancedTicket").value);
+  const text = normal($("#advancedText").value);
+  const type = normal($("#advancedType").value);
+  const reason = normal($("#advancedReason").value);
+  const range = currentAdvancedRange();
+  return dashboard.movements.filter((row) => {
+    if (ticket && !normal(row.ticket).includes(ticket)) return false;
+    if (text && !normal(`${row.codigo} ${row.descripcion} ${row.razon}`).includes(text)) return false;
+    if (type && normal(row.tipo) !== type) return false;
+    if (reason && normal(row.razon) !== reason) return false;
+    if (range.from && row.fecha < range.from) return false;
+    if (range.to && row.fecha > range.to) return false;
+    return true;
+  });
+}
+
+function renderAdvancedSearch() {
+  syncAdvancedDateInputs();
+  const rows = filterAdvancedMovements();
+  const entradas = rows.filter((row) => normal(row.tipo) === "ENTRADA").reduce((sum, row) => sum + Number(row.cantidad || 0), 0);
+  const salidas = rows.filter((row) => normal(row.tipo) === "SALIDA").reduce((sum, row) => sum + Number(row.cantidad || 0), 0);
+  const tickets = new Set(rows.map((row) => String(row.ticket || "").trim()).filter(Boolean));
+  $("#advancedSummary").innerHTML = [
+    ["Movimientos", rows.length],
+    ["Entradas", entradas],
+    ["Salidas", salidas],
+    ["Tickets", tickets.size],
+  ].map(([label, value]) => `<div class="metric"><span>${label}</span><strong>${moneylessNumber(value)}</strong></div>`).join("");
+  $("#advancedResults").innerHTML = table([
+    { key: "fecha", label: "Fecha" },
+    { key: "ticket", label: "Ticket" },
+    { key: "codigo", label: "Codigo" },
+    { key: "descripcion", label: "Descripcion" },
+    { key: "tipo", label: "Tipo" },
+    { key: "cantidad", label: "Cantidad" },
+    { key: "razon", label: "Razon" },
+  ], rows.slice(0, 800));
+}
+
+function movementDuplicateAlerts() {
+  const groups = new Map();
+  for (const row of dashboard.movements) {
+    const ticket = String(row.ticket || "").trim();
+    if (!ticket || normal(ticket) === "N/A") continue;
+    const id = `${normal(ticket)}|${normal(row.codigo)}|${Math.abs(Number(row.cantidad || 0))}`;
+    const current = groups.get(id) || [];
+    current.push(row);
+    groups.set(id, current);
+  }
+  return [...groups.values()]
+    .filter((group) => group.length > 1)
+    .map((group) => ({
+      ticket: group[0].ticket,
+      codigo: group[0].codigo,
+      descripcion: group[0].descripcion,
+      cantidad: Math.abs(Number(group[0].cantidad || 0)),
+      fecha: group.map((row) => row.fecha).sort().at(-1),
+      razones: [...new Set(group.map((row) => row.razon).filter(Boolean))].join(", "),
+      tipos: [...new Set(group.map((row) => row.tipo).filter(Boolean))].join(", "),
+      repeticiones: group.length,
+    }))
+    .sort((a, b) => b.fecha.localeCompare(a.fecha) || b.repeticiones - a.repeticiones);
+}
+
+function stockRiskAlerts() {
+  const inventory = new Map(dashboard.inventory.map((row) => [normal(row.codigo), row]));
+  const movementMap = new Map();
+  const allowedReasons = new Set(["PD", "LG", "RT"]);
+  for (const row of dashboard.movements) {
+    if (normal(row.tipo) !== "SALIDA") continue;
+    if (!allowedReasons.has(normal(row.razon))) continue;
+    const id = normal(row.codigo);
+    if (!id) continue;
+    const current = movementMap.get(id) || {
+      codigo: row.codigo,
+      descripcion: row.descripcion,
+      movimientos: 0,
+      cantidad: 0,
+    };
+    current.movimientos += 1;
+    current.cantidad += Math.abs(Number(row.cantidad || 0));
+    movementMap.set(id, current);
+  }
+  const movers = [...movementMap.values()].sort((a, b) => b.cantidad - a.cantidad);
+  const highLimit = Math.max(1, Math.ceil(movers.length * 0.2));
+  const mediumLimit = Math.max(highLimit + 1, Math.ceil(movers.length * 0.5));
+  return movers.map((row, index) => {
+    const item = inventory.get(normal(row.codigo));
+    if (!item) return null;
+    const nivel = index < highLimit ? "Alta" : index < mediumLimit ? "Media" : "Baja";
+    if (nivel === "Baja") return null;
+    const stock = Number(item.stock || 0);
+    const threshold = nivel === "Alta" ? Math.max(5, Math.ceil(row.cantidad * 0.08)) : Math.max(3, Math.ceil(row.cantidad * 0.04));
+    if (stock > threshold) return null;
+    return {
+      ...row,
+      stock,
+      nivel,
+      threshold,
+      severity: stock <= 0 ? "danger" : "warning",
+    };
+  }).filter(Boolean).sort((a, b) => a.stock - b.stock || b.cantidad - a.cantidad).slice(0, 30);
+}
+
+function renderAlerts() {
+  const duplicates = movementDuplicateAlerts().slice(0, 30);
+  $("#movementDuplicateAlerts").innerHTML = duplicates.length
+    ? duplicates.map((row) => `<article class="alert-card danger">
+        <strong>Ticket ${escapeHtml(row.ticket)} repetido con ${escapeHtml(row.codigo)}</strong>
+        <div>${escapeHtml(row.descripcion)}</div>
+        <div class="alert-meta">Fecha: ${escapeHtml(row.fecha)} | Cantidad: ${moneylessNumber(row.cantidad)} | Repeticiones: ${row.repeticiones} | Tipo: ${escapeHtml(row.tipos)} | Razon: ${escapeHtml(row.razones)}</div>
+      </article>`).join("")
+    : '<div class="empty">No hay duplicados nuevos detectados desde Movimientos.</div>';
+
+  const stockAlerts = stockRiskAlerts();
+  $("#stockAlerts").innerHTML = stockAlerts.length
+    ? stockAlerts.map((row) => `<article class="alert-card ${row.severity}">
+        <strong>${escapeHtml(row.codigo)}: stock bajo para rotacion ${escapeHtml(row.nivel)}</strong>
+        <div>${escapeHtml(row.descripcion)}</div>
+        <div class="alert-meta">Stock actual: ${moneylessNumber(row.stock)} | Salidas PD/LG/RT: ${moneylessNumber(row.cantidad)} | Movimientos: ${row.movimientos} | Punto de alerta: ${moneylessNumber(row.threshold)}</div>
+      </article>`).join("")
+    : '<div class="empty">No hay materiales de alta o media rotacion por debajo del punto de alerta.</div>';
 }
 
 function renderProviders() {
@@ -129,6 +298,13 @@ document.querySelectorAll(".tab").forEach((button) => {
 $("#refreshBtn").addEventListener("click", loadData);
 $("#inventorySearch").addEventListener("input", renderInventory);
 $("#movementSearch").addEventListener("input", renderMovements);
+$("#advancedTicket").addEventListener("input", renderAdvancedSearch);
+$("#advancedText").addEventListener("input", renderAdvancedSearch);
+$("#advancedPreset").addEventListener("change", renderAdvancedSearch);
+$("#advancedFrom").addEventListener("input", renderAdvancedSearch);
+$("#advancedTo").addEventListener("input", renderAdvancedSearch);
+$("#advancedType").addEventListener("change", renderAdvancedSearch);
+$("#advancedReason").addEventListener("change", renderAdvancedSearch);
 $("#providerSelect").addEventListener("change", renderProviders);
 $("#duplicateSearch").addEventListener("input", renderDuplicates);
 
