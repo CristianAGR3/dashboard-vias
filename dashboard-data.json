@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-12T03:40:33.344Z",
-  "excelPath": "C:\\Users\\Crist\\Documents\\Codex\\2026-05-09\\files-mentioned-by-the-user-1\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
+  "generatedAt": "2026-05-12T14:33:21.235Z",
+  "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
       "segmento": "AGLO",
@@ -6192,11 +6192,11 @@
       "fechaSerial": 46151,
       "fecha": "2026-05-09",
       "codigo": "ARA14",
-      "descripcion": "",
+      "descripcion": "MELA-AGLO. EBANO INDI TX.  2/C 16MM 1.22 X 2.44 (ARAUCO)",
       "tipo": "Entrada",
       "cantidad": 6,
       "ticket": "",
-      "razon": "ERROR EN TRASPASO"
+      "razon": "ENTRADA MAL TRASPASO"
     },
     {
       "fechaSerial": 46151,
@@ -139667,8 +139667,8 @@
   "providerSummary": [
     {
       "proveedor": "ARAUCO",
-      "entradas": 211,
-      "piezas": 27590
+      "entradas": 212,
+      "piezas": 27596
     },
     {
       "proveedor": "GAVILAN",
@@ -139765,6 +139765,16 @@
       "piezas": 21,
       "proveedor": "GAVILAN",
       "orden": 1008,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-05-09",
+      "fechaSerial": 46151,
+      "codigo": "ARA14",
+      "descripcion": "MELA-AGLO. EBANO INDI TX.  2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "piezas": 6,
+      "proveedor": "ARAUCO",
+      "orden": "",
       "origen": "Movimientos"
     },
     {
