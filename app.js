@@ -25,7 +25,7 @@ function monthStartIso() {
 function table(columns, rows) {
   if (!rows.length) return '<div class="empty">Sin resultados.</div>';
   return `<table><thead><tr>${columns.map((col) => `<th>${col.label}</th>`).join("")}</tr></thead><tbody>${
-    rows.map((row) => `<tr>${columns.map((col) => `<td>${escapeHtml(row[col.key] ?? "")}</td>`).join("")}</tr>`).join("")
+    rows.map((row) => `<tr>${columns.map((col) => `<td data-label="${escapeHtml(col.label)}">${escapeHtml(row[col.key] ?? "")}</td>`).join("")}</tr>`).join("")
   }</tbody></table>`;
 }
 
@@ -60,7 +60,6 @@ async function loadData() {
   renderInventory();
   renderMovements();
   renderAdvancedSearch();
-  renderAlerts();
   renderProviders();
   renderDuplicates();
   $("#status").textContent = `Actualizado: ${new Date(dashboard.generatedAt).toLocaleString("es-MX")}`;
@@ -168,91 +167,6 @@ function renderAdvancedSearch() {
     { key: "cantidad", label: "Cantidad" },
     { key: "razon", label: "Razon" },
   ], rows.slice(0, 800));
-}
-
-function movementDuplicateAlerts() {
-  const groups = new Map();
-  for (const row of dashboard.movements) {
-    const ticket = String(row.ticket || "").trim();
-    if (!ticket || normal(ticket) === "N/A") continue;
-    const id = `${normal(ticket)}|${normal(row.codigo)}|${Math.abs(Number(row.cantidad || 0))}`;
-    const current = groups.get(id) || [];
-    current.push(row);
-    groups.set(id, current);
-  }
-  return [...groups.values()]
-    .filter((group) => group.length > 1)
-    .map((group) => ({
-      ticket: group[0].ticket,
-      codigo: group[0].codigo,
-      descripcion: group[0].descripcion,
-      cantidad: Math.abs(Number(group[0].cantidad || 0)),
-      fecha: group.map((row) => row.fecha).sort().at(-1),
-      razones: [...new Set(group.map((row) => row.razon).filter(Boolean))].join(", "),
-      tipos: [...new Set(group.map((row) => row.tipo).filter(Boolean))].join(", "),
-      repeticiones: group.length,
-    }))
-    .sort((a, b) => b.fecha.localeCompare(a.fecha) || b.repeticiones - a.repeticiones);
-}
-
-function stockRiskAlerts() {
-  const inventory = new Map(dashboard.inventory.map((row) => [normal(row.codigo), row]));
-  const movementMap = new Map();
-  const allowedReasons = new Set(["PD", "LG", "RT"]);
-  for (const row of dashboard.movements) {
-    if (normal(row.tipo) !== "SALIDA") continue;
-    if (!allowedReasons.has(normal(row.razon))) continue;
-    const id = normal(row.codigo);
-    if (!id) continue;
-    const current = movementMap.get(id) || {
-      codigo: row.codigo,
-      descripcion: row.descripcion,
-      movimientos: 0,
-      cantidad: 0,
-    };
-    current.movimientos += 1;
-    current.cantidad += Math.abs(Number(row.cantidad || 0));
-    movementMap.set(id, current);
-  }
-  const movers = [...movementMap.values()].sort((a, b) => b.cantidad - a.cantidad);
-  const highLimit = Math.max(1, Math.ceil(movers.length * 0.2));
-  const mediumLimit = Math.max(highLimit + 1, Math.ceil(movers.length * 0.5));
-  return movers.map((row, index) => {
-    const item = inventory.get(normal(row.codigo));
-    if (!item) return null;
-    const nivel = index < highLimit ? "Alta" : index < mediumLimit ? "Media" : "Baja";
-    if (nivel === "Baja") return null;
-    const stock = Number(item.stock || 0);
-    const threshold = nivel === "Alta" ? Math.max(5, Math.ceil(row.cantidad * 0.08)) : Math.max(3, Math.ceil(row.cantidad * 0.04));
-    if (stock > threshold) return null;
-    return {
-      ...row,
-      stock,
-      nivel,
-      threshold,
-      severity: stock <= 0 ? "danger" : "warning",
-    };
-  }).filter(Boolean).sort((a, b) => a.stock - b.stock || b.cantidad - a.cantidad).slice(0, 30);
-}
-
-function renderAlerts() {
-  const duplicates = movementDuplicateAlerts().slice(0, 30);
-  $("#movementDuplicateAlerts").innerHTML = duplicates.length
-    ? duplicates.map((row) => `<article class="alert-card danger">
-        <strong>Ticket ${escapeHtml(row.ticket)} repetido con ${escapeHtml(row.codigo)}</strong>
-        <div>${escapeHtml(row.descripcion)}</div>
-        <div class="alert-meta">Fecha: ${escapeHtml(row.fecha)} | Cantidad: ${moneylessNumber(row.cantidad)} | Repeticiones: ${row.repeticiones} | Tipo: ${escapeHtml(row.tipos)} | Razon: ${escapeHtml(row.razones)}</div>
-      </article>`).join("")
-    : '<div class="empty">No hay duplicados nuevos detectados desde Movimientos.</div>';
-
-  const stockAlerts = stockRiskAlerts();
-  $("#stockAlerts").innerHTML = stockAlerts.length
-    ? stockAlerts.map((row) => `<article class="alert-card ${row.severity}">
-        <strong>${escapeHtml(row.codigo)}: stock bajo para rotacion ${escapeHtml(row.nivel)}</strong>
-        <div>${escapeHtml(row.descripcion)}</div>
-        <div class="alert-meta">Stock actual: ${moneylessNumber(row.stock)} | Salidas PD/LG/RT: ${moneylessNumber(row.cantidad)} | Movimientos: ${row.movimientos} | Punto de alerta: ${moneylessNumber(row.threshold)}</div>
-      </article>`).join("")
-    : '<div class="empty">No hay materiales de alta o media rotacion por debajo del punto de alerta.</div>';
 }
 
 function renderProviders() {

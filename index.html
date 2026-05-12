@@ -19,9 +19,9 @@
       <button class="tab active" data-tab="inventario">Inventario</button>
       <button class="tab" data-tab="movimientos">Movimientos</button>
       <button class="tab" data-tab="busqueda">Busqueda avanzada</button>
-      <button class="tab" data-tab="alertas">Alertas</button>
       <button class="tab" data-tab="proveedores">Proveedores</button>
       <button class="tab" data-tab="duplicados">Duplicados</button>
+      <button class="tab" data-tab="mermas">Mermas</button>
     </nav>
 
     <main>
@@ -83,19 +83,6 @@
         </section>
       </section>
 
-      <section id="alertas" class="panel">
-        <div class="grid two">
-          <section class="surface">
-            <h2>Duplicados desde movimientos</h2>
-            <div id="movementDuplicateAlerts" class="alerts"></div>
-          </section>
-          <section class="surface">
-            <h2>Materiales por acabarse</h2>
-            <div id="stockAlerts" class="alerts"></div>
-          </section>
-        </div>
-      </section>
-
       <section id="proveedores" class="panel">
         <div class="grid two">
           <section class="surface">
@@ -115,6 +102,13 @@
           <h2>Duplicados detectados</h2>
           <input id="duplicateSearch" class="input" placeholder="Filtrar por codigo, ticket o razon">
           <div id="duplicatesTable" class="table-wrap"></div>
+        </section>
+      </section>
+
+      <section id="mermas" class="panel">
+        <section class="surface soon">
+          <p class="eyebrow">Mermas</p>
+          <h2>Proximamente</h2>
         </section>
       </section>
     </main>
