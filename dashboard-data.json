@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T21:38:46.476Z",
+  "generatedAt": "2026-05-13T16:20:33.235Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -12,7 +12,7 @@
       "segmento": "ARA",
       "codigo": "ARA03",
       "descripcion": "MELA-AGLO. ANAHUAC  TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 78
+      "stock": 73
     },
     {
       "segmento": "ARA",
@@ -276,7 +276,7 @@
       "segmento": "ARA",
       "codigo": "ARA138",
       "descripcion": "MELA AGLO CEREZO TX  2C 16MM 1.22 X 2.44",
-      "stock": 151
+      "stock": 149
     },
     {
       "segmento": "ARA",
@@ -720,7 +720,7 @@
       "segmento": "ARA",
       "codigo": "ARA68",
       "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 1615
+      "stock": 1609
     },
     {
       "segmento": "ARA",
@@ -1584,7 +1584,7 @@
       "segmento": "COM",
       "codigo": "COM03",
       "descripcion": "PANEL ALTO BRILLO F.GREY (GRIS CLARO) 2/C 18MM 1.22X2.44 (MERINO)",
-      "stock": 80
+      "stock": 78
     },
     {
       "segmento": "COM",
@@ -4302,7 +4302,7 @@
       "segmento": "NAV",
       "codigo": "NAV05",
       "descripcion": "MELA-MDF BLANCO FROSTY  2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "stock": 3081
+      "stock": 3075
     },
     {
       "segmento": "NAV",
@@ -4332,7 +4332,7 @@
       "segmento": "NAV",
       "codigo": "NAV10",
       "descripcion": "MELA-MDF LINOZA TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "stock": 276
+      "stock": 275
     },
     {
       "segmento": "NAV",
@@ -4356,7 +4356,7 @@
       "segmento": "NAV",
       "codigo": "NAV14",
       "descripcion": "MELA-MDF POLAR TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "stock": 506
+      "stock": 502
     },
     {
       "segmento": "NAV",
@@ -4416,7 +4416,7 @@
       "segmento": "NAV",
       "codigo": "NAV24",
       "descripcion": "MELA-MDF ROSA MORADA 2 TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "stock": 350
+      "stock": 349
     },
     {
       "segmento": "NAV",
@@ -5376,7 +5376,7 @@
       "segmento": "VST",
       "codigo": "VST23",
       "descripcion": "MELA-MDP NOCCE MILANO TX. 2/C 15MM 1.83 X 2.50 (VESTO)",
-      "stock": 77
+      "stock": 76
     },
     {
       "segmento": "VST",
@@ -5586,7 +5586,7 @@
       "segmento": "WOOD",
       "codigo": "WOOD05",
       "descripcion": "MELA-MDF 9190 HAYA 2/C 15MM 1.22 X 2.44 (WOODSTAR)",
-      "stock": 62
+      "stock": 60
     },
     {
       "segmento": "WOOD",
@@ -5626,6 +5626,136 @@
     }
   ],
   "movements": [
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "NAV14",
+      "descripcion": "MELA-MDF POLAR TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 193763,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "ARA138",
+      "descripcion": "MELA AGLO CEREZO TX  2C 16MM 1.22 X 2.44",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 356839,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "NAV24",
+      "descripcion": "MELA-MDF ROSA MORADA 2 TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 193890,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "NAV10",
+      "descripcion": "MELA-MDF LINOZA TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 193890,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "COM03",
+      "descripcion": "PANEL ALTO BRILLO F.GREY (GRIS CLARO) 2/C 18MM 1.22X2.44 (MERINO)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 193869,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "NAV05",
+      "descripcion": "MELA-MDF BLANCO FROSTY  2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "tipo": "Salida",
+      "cantidad": 6,
+      "ticket": 193869,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "ARA68",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 303797,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "ARA68",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 303798,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "ARA68",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 303799,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "VST23",
+      "descripcion": "MELA-MDP NOCCE MILANO TX. 2/C 15MM 1.83 X 2.50 (VESTO)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 356780,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "NAV14",
+      "descripcion": "MELA-MDF POLAR TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 356780,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "WOOD05",
+      "descripcion": "MELA-MDF 9190 HAYA 2/C 15MM 1.22 X 2.44 (WOODSTAR)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 193837,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "ARA03",
+      "descripcion": "MELA-AGLO. ANAHUAC  TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 5,
+      "ticket": 55,
+      "razon": "RT"
+    },
     {
       "fechaSerial": 46154,
       "fecha": "2026-05-12",
@@ -139917,8 +140047,8 @@
     {
       "codigo": "ARA68",
       "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
-      "movimientos": 365,
-      "cantidad": 2387
+      "movimientos": 368,
+      "cantidad": 2393
     },
     {
       "codigo": "ARA132",
@@ -139929,8 +140059,8 @@
     {
       "codigo": "NAV05",
       "descripcion": "MELA-MDF BLANCO FROSTY  2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "movimientos": 285,
-      "cantidad": 1674
+      "movimientos": 286,
+      "cantidad": 1680
     },
     {
       "codigo": "VST09",
@@ -140019,14 +140149,14 @@
     {
       "codigo": "NAV14",
       "descripcion": "MELA-MDF POLAR TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "movimientos": 114,
-      "cantidad": 489
+      "movimientos": 116,
+      "cantidad": 493
     },
     {
       "codigo": "NAV24",
       "descripcion": "MELA-MDF ROSA MORADA 2 TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "movimientos": 71,
-      "cantidad": 444
+      "movimientos": 72,
+      "cantidad": 445
     },
     {
       "codigo": "VST11",
@@ -140062,13 +140192,13 @@
   "reasons": [
     {
       "razon": "PD",
-      "movimientos": 4406,
-      "cantidad": 23463
+      "movimientos": 4418,
+      "cantidad": 23488
     },
     {
       "razon": "RT",
-      "movimientos": 3722,
-      "cantidad": 16319
+      "movimientos": 3723,
+      "cantidad": 16324
     },
     {
       "razon": "LG",
