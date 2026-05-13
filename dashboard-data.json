@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T16:39:30.405Z",
+  "generatedAt": "2026-05-13T20:33:37.138Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -726,7 +726,7 @@
       "segmento": "ARA",
       "codigo": "ARA70",
       "descripcion": "MELA-MDF CAIRO TX. 2/C  15MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 0
+      "stock": 5
     },
     {
       "segmento": "ARA",
@@ -5745,6 +5745,16 @@
       "cantidad": 2,
       "ticket": 193837,
       "razon": "PD"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "ARA70",
+      "descripcion": "MELA-MDF CAIRO TX. 2/C  15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Entrada",
+      "cantidad": 5,
+      "ticket": 1006,
+      "razon": "LAMSA"
     },
     {
       "fechaSerial": 46154,
@@ -140212,8 +140222,8 @@
     },
     {
       "razon": "LAMSA",
-      "movimientos": 254,
-      "cantidad": 14329
+      "movimientos": 255,
+      "cantidad": 14334
     },
     {
       "razon": "TEKNO-STEP",
@@ -140340,8 +140350,8 @@
     },
     {
       "proveedor": "LAMSA",
-      "entradas": 253,
-      "piezas": 14328
+      "entradas": 254,
+      "piezas": 14333
     },
     {
       "proveedor": "PROMASA",
@@ -140395,6 +140405,16 @@
     }
   ],
   "providerEntries": [
+    {
+      "fecha": "2026-05-13",
+      "fechaSerial": 46155,
+      "codigo": "ARA70",
+      "descripcion": "MELA-MDF CAIRO TX. 2/C  15MM 1.22 X 2.44 (ARAUCO)",
+      "piezas": 5,
+      "proveedor": "LAMSA",
+      "orden": 1006,
+      "origen": "Movimientos"
+    },
     {
       "fecha": "2026-05-12",
       "fechaSerial": 46154,
