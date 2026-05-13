@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T20:33:37.138Z",
+  "generatedAt": "2026-05-13T20:59:44.594Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -528,7 +528,7 @@
       "segmento": "ARA",
       "codigo": "ARA34",
       "descripcion": "MELA-AGLO. NEGRO MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 208
+      "stock": 205
     },
     {
       "segmento": "ARA",
@@ -714,7 +714,7 @@
       "segmento": "ARA",
       "codigo": "ARA67",
       "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 12MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 69
+      "stock": 54
     },
     {
       "segmento": "ARA",
@@ -912,7 +912,7 @@
       "segmento": "ASIG",
       "codigo": "ASIG09",
       "descripcion": "MELA-MDF CEREZO TX. 2/C 15MM 1.22 X2.44 (ASIGMA)",
-      "stock": 125
+      "stock": 122
     },
     {
       "segmento": "ASIG",
@@ -1596,7 +1596,7 @@
       "segmento": "COM",
       "codigo": "COM05",
       "descripcion": "PANEL ALTO BRILLO WHITHE (BLANCO) 2/C 18MM 1.22X2.44 (MERINO)",
-      "stock": 251
+      "stock": 250
     },
     {
       "segmento": "COM",
@@ -1752,7 +1752,7 @@
       "segmento": "CUBR",
       "codigo": "CUBR109",
       "descripcion": "MELA-MDF (D18) NEGRO C/PROTECTOR 2/C 15MM 1.22 X 2.44 (CUBRICA)",
-      "stock": 91
+      "stock": 90
     },
     {
       "segmento": "CUBR",
@@ -3546,7 +3546,7 @@
       "segmento": "MDF",
       "codigo": "MDF312",
       "descripcion": "MDF 12MM TRUPAN CHILENO",
-      "stock": 421
+      "stock": 381
     },
     {
       "segmento": "MDF",
@@ -4662,7 +4662,7 @@
       "segmento": "TKS",
       "codigo": "TKS-24",
       "descripcion": "ANGULO P/LAMBRIN RIO 30 X 30 X 2900MM (TK-ST)",
-      "stock": 31
+      "stock": 30
     },
     {
       "segmento": "TKS",
@@ -4866,7 +4866,7 @@
       "segmento": "TKS",
       "codigo": "TKS-58",
       "descripcion": "LAMBRIN INTERIOR AMIZADE 24MM 16 X 2.90 C/14PZ (TK-ST)",
-      "stock": 5
+      "stock": 4
     },
     {
       "segmento": "TKS",
@@ -5250,7 +5250,7 @@
       "segmento": "TPY",
       "codigo": "TPY62",
       "descripcion": "TRIPLAY 18MM 1.22 X 2.44 ENCINO",
-      "stock": 42
+      "stock": 39
     },
     {
       "segmento": "VST",
@@ -5755,6 +5755,96 @@
       "cantidad": 5,
       "ticket": 1006,
       "razon": "LAMSA"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "MDF312",
+      "descripcion": "MDF 12MM TRUPAN CHILENO",
+      "tipo": "Salida",
+      "cantidad": 40,
+      "ticket": 304153,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "TKS-24",
+      "descripcion": "ANGULO P/LAMBRIN RIO 30 X 30 X 2900MM (TK-ST)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 194230,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "ARA67",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 12MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 15,
+      "ticket": 356974,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "TPY62",
+      "descripcion": "TRIPLAY 18MM 1.22 X 2.44 ENCINO",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 194210,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "COM05",
+      "descripcion": "PANEL ALTO BRILLO WHITHE (BLANCO) 2/C 18MM 1.22X2.44 (MERINO)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 194208,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "TKS-58",
+      "descripcion": "LAMBRIN INTERIOR AMIZADE 24MM 16 X 2.90 C/14PZ (TK-ST)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 304119,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "ARA34",
+      "descripcion": "MELA-AGLO. NEGRO MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 304167,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "ASIG09",
+      "descripcion": "MELA-MDF CEREZO TX. 2/C 15MM 1.22 X2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 304184,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "CUBR109",
+      "descripcion": "MELA-MDF (D18) NEGRO C/PROTECTOR 2/C 15MM 1.22 X 2.44 (CUBRICA)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 304184,
+      "razon": "RT"
     },
     {
       "fechaSerial": 46154,
@@ -140197,8 +140287,8 @@
     },
     {
       "razon": "RT",
-      "movimientos": 3722,
-      "cantidad": 16319
+      "movimientos": 3731,
+      "cantidad": 16387
     },
     {
       "razon": "LG",
