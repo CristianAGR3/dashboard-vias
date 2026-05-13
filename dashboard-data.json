@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T16:20:33.235Z",
+  "generatedAt": "2026-05-13T16:39:30.405Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -12,7 +12,7 @@
       "segmento": "ARA",
       "codigo": "ARA03",
       "descripcion": "MELA-AGLO. ANAHUAC  TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 73
+      "stock": 78
     },
     {
       "segmento": "ARA",
@@ -5745,16 +5745,6 @@
       "cantidad": 2,
       "ticket": 193837,
       "razon": "PD"
-    },
-    {
-      "fechaSerial": 46155,
-      "fecha": "2026-05-13",
-      "codigo": "ARA03",
-      "descripcion": "MELA-AGLO. ANAHUAC  TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "tipo": "Salida",
-      "cantidad": 5,
-      "ticket": 55,
-      "razon": "RT"
     },
     {
       "fechaSerial": 46154,
@@ -140197,8 +140187,8 @@
     },
     {
       "razon": "RT",
-      "movimientos": 3723,
-      "cantidad": 16324
+      "movimientos": 3722,
+      "cantidad": 16319
     },
     {
       "razon": "LG",
