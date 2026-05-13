@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T20:59:44.594Z",
+  "generatedAt": "2026-05-13T21:18:49.240Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -504,7 +504,7 @@
       "segmento": "ARA",
       "codigo": "ARA30",
       "descripcion": "MELA-AGLO. MALTA TX. 2/C 16MM 1.22 X 2.44(ARAUCO)",
-      "stock": 288
+      "stock": 285
     },
     {
       "segmento": "ARA",
@@ -1740,7 +1740,7 @@
       "segmento": "CUBR",
       "codigo": "CUBR107",
       "descripcion": "MELA-MDF (D30) GRIS OXFORD C/PROTECTOR 2/C 18MM 1.22 X 2.44 (CUBRICA)",
-      "stock": 91
+      "stock": 90
     },
     {
       "segmento": "CUBR",
@@ -1860,7 +1860,7 @@
       "segmento": "CUBR",
       "codigo": "CUBR127",
       "descripcion": "MELA-MDF ROBLE CARAMEL SINCRO 1/C 5MM 1.22 X 2.44 (CUBRICA)",
-      "stock": 21
+      "stock": 0
     },
     {
       "segmento": "CUBR",
@@ -3522,7 +3522,7 @@
       "segmento": "MDF",
       "codigo": "MDF28",
       "descripcion": "MDF 5.5MM  1.22 X 2.44 (BERNECK)",
-      "stock": 748
+      "stock": 745
     },
     {
       "segmento": "MDF",
@@ -5076,7 +5076,7 @@
       "segmento": "TPY",
       "codigo": "TPY25",
       "descripcion": "PINO 18MM 1.22 X 2.44 CHILENO",
-      "stock": 115
+      "stock": 107
     },
     {
       "segmento": "TPY",
@@ -5118,7 +5118,7 @@
       "segmento": "TPY",
       "codigo": "TPY33",
       "descripcion": "PINO 9MM 1.22 X 2.44  CHILENO",
-      "stock": 188
+      "stock": 156
     },
     {
       "segmento": "TPY",
@@ -5142,7 +5142,7 @@
       "segmento": "TPY",
       "codigo": "TPY37",
       "descripcion": "TRIPLAY  5.2 MM 1.22 X 2.44 ENCINO",
-      "stock": 909
+      "stock": 849
     },
     {
       "segmento": "TPY",
@@ -5442,7 +5442,7 @@
       "segmento": "VST",
       "codigo": "VST34",
       "descripcion": "MELA-MDP SEDA GIORNO TX. 2/C 15MM 1.83 X 2.50 (VESTO)",
-      "stock": 73
+      "stock": 71
     },
     {
       "segmento": "VST",
@@ -5845,6 +5845,86 @@
       "cantidad": 1,
       "ticket": 304184,
       "razon": "RT"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "TPY25",
+      "descripcion": "PINO 18MM 1.22 X 2.44 CHILENO",
+      "tipo": "Salida",
+      "cantidad": 8,
+      "ticket": 304091,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "TPY33",
+      "descripcion": "PINO 9MM 1.22 X 2.44  CHILENO",
+      "tipo": "Salida",
+      "cantidad": 32,
+      "ticket": 304091,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "ARA30",
+      "descripcion": "MELA-AGLO. MALTA TX. 2/C 16MM 1.22 X 2.44(ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 303474,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "VST34",
+      "descripcion": "MELA-MDP SEDA GIORNO TX. 2/C 15MM 1.83 X 2.50 (VESTO)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 303474,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "CUBR127",
+      "descripcion": "MELA-MDF ROBLE CARAMEL SINCRO 1/C 5MM 1.22 X 2.44 (CUBRICA)",
+      "tipo": "Salida",
+      "cantidad": 21,
+      "ticket": 303631,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "MDF28",
+      "descripcion": "MDF 5.5MM  1.22 X 2.44 (BERNECK)",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 356904,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "TPY37",
+      "descripcion": "TRIPLAY  5.2 MM 1.22 X 2.44 ENCINO",
+      "tipo": "Salida",
+      "cantidad": 60,
+      "ticket": 304063,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "CUBR107",
+      "descripcion": "MELA-MDF (D30) GRIS OXFORD C/PROTECTOR 2/C 18MM 1.22 X 2.44 (CUBRICA)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 356930,
+      "razon": "LG"
     },
     {
       "fechaSerial": 46154,
@@ -140183,6 +140263,12 @@
       "cantidad": 678
     },
     {
+      "codigo": "TPY37",
+      "descripcion": "TRIPLAY  5.2 MM 1.22 X 2.44 ENCINO",
+      "movimientos": 28,
+      "cantidad": 603
+    },
+    {
       "codigo": "NAV09",
       "descripcion": "MELA-MDF GRIS OXFORD 2/C  15MM  1.22 X 2.44 (NAVETTA)",
       "movimientos": 172,
@@ -140213,16 +140299,10 @@
       "cantidad": 550
     },
     {
-      "codigo": "TPY37",
-      "descripcion": "TRIPLAY  5.2 MM 1.22 X 2.44 ENCINO",
-      "movimientos": 27,
-      "cantidad": 543
-    },
-    {
       "codigo": "MDF28",
       "descripcion": "MDF 5.5MM  1.22 X 2.44 (BERNECK)",
-      "movimientos": 136,
-      "cantidad": 532
+      "movimientos": 137,
+      "cantidad": 535
     },
     {
       "codigo": "ARA58",
@@ -140292,8 +140372,8 @@
     },
     {
       "razon": "LG",
-      "movimientos": 1746,
-      "cantidad": 9383
+      "movimientos": 1754,
+      "cantidad": 9513
     },
     {
       "razon": "Traspasos enviados a tienda",
