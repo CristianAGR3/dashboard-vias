@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T00:02:22.219Z",
+  "generatedAt": "2026-05-14T23:03:30.176Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -1644,7 +1644,7 @@
       "segmento": "CUBR",
       "codigo": "CUBR02",
       "descripcion": "MELA-MDF (D1) MOCA TX. 2/C 15MM 1.22 X 2.44 (CUBRICA)",
-      "stock": 3
+      "stock": 5
     },
     {
       "segmento": "CUBR",
@@ -3792,7 +3792,7 @@
       "segmento": "MDF",
       "codigo": "MDF78",
       "descripcion": "MDF BCO 2/C 3MM 1.22 X 2.44",
-      "stock": 0
+      "stock": 1
     },
     {
       "segmento": "MELA",
@@ -4308,13 +4308,13 @@
       "segmento": "NAV",
       "codigo": "NAV06",
       "descripcion": "MELA-MDF DUNA TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "stock": 50
+      "stock": 218
     },
     {
       "segmento": "NAV",
       "codigo": "NAV07",
       "descripcion": "MELA-MDF FIORANO TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "stock": 429
+      "stock": 541
     },
     {
       "segmento": "NAV",
@@ -4332,7 +4332,7 @@
       "segmento": "NAV",
       "codigo": "NAV10",
       "descripcion": "MELA-MDF LINOZA TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "stock": 273
+      "stock": 329
     },
     {
       "segmento": "NAV",
@@ -4356,7 +4356,7 @@
       "segmento": "NAV",
       "codigo": "NAV14",
       "descripcion": "MELA-MDF POLAR TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "stock": 502
+      "stock": 614
     },
     {
       "segmento": "NAV",
@@ -4374,25 +4374,25 @@
       "segmento": "NAV",
       "codigo": "NAV17",
       "descripcion": "MELA-MDF CARRARA 2/C 15MM 1.22 X 2.44 (NAVETTA)",
-      "stock": 87
+      "stock": 143
     },
     {
       "segmento": "NAV",
       "codigo": "NAV18",
       "descripcion": "MELA-MDF TZALAM 2/C 15MM 1.22 X 2.44 (NAVETTA)",
-      "stock": 43
+      "stock": 155
     },
     {
       "segmento": "NAV",
       "codigo": "NAV19",
       "descripcion": "MELA-MDF NOGAL TX 2/C 15MM 1.22 X 2.44 (NAVETTA)",
-      "stock": 389
+      "stock": 445
     },
     {
       "segmento": "NAV",
       "codigo": "NAV20",
       "descripcion": "MELA-MDF ROBLE BLANCO TX 2/C 15MM 1.22 X 2.44 (NAVETTA)",
-      "stock": 172
+      "stock": 396
     },
     {
       "segmento": "NAV",
@@ -4410,7 +4410,7 @@
       "segmento": "NAV",
       "codigo": "NAV23",
       "descripcion": "MELA-MDF NEGRO 2/C 15MM 1.22 X 2.44 (NAVETTA)",
-      "stock": 670
+      "stock": 838
     },
     {
       "segmento": "NAV",
@@ -4440,7 +4440,7 @@
       "segmento": "NAV",
       "codigo": "NAV28",
       "descripcion": "MELA-MDF CASTAÑA TX 2/C 15MM 1.22 X 2.44 (NAVETTA)",
-      "stock": 71
+      "stock": 127
     },
     {
       "segmento": "NAV",
@@ -5626,6 +5626,126 @@
     }
   ],
   "movements": [
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV18",
+      "descripcion": "MELA-MDF TZALAM 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "tipo": "Entrada",
+      "cantidad": 112,
+      "ticket": 994,
+      "razon": "CEBRA FORESTAL"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV20",
+      "descripcion": "MELA-MDF ROBLE BLANCO TX 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "tipo": "Entrada",
+      "cantidad": 224,
+      "ticket": 1029,
+      "razon": "CEBRA FORESTAL"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV17",
+      "descripcion": "MELA-MDF CARRARA 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "tipo": "Entrada",
+      "cantidad": 56,
+      "ticket": 994,
+      "razon": "CEBRA FORESTAL"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV19",
+      "descripcion": "MELA-MDF NOGAL TX 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "tipo": "Entrada",
+      "cantidad": 56,
+      "ticket": 994,
+      "razon": "CEBRA FORESTAL"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV14",
+      "descripcion": "MELA-MDF POLAR TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "tipo": "Entrada",
+      "cantidad": 112,
+      "ticket": 1029,
+      "razon": "CEBRA FORESTAL"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV23",
+      "descripcion": "MELA-MDF NEGRO 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "tipo": "Entrada",
+      "cantidad": 168,
+      "ticket": 1029,
+      "razon": "CEBRA FORESTAL"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV10",
+      "descripcion": "MELA-MDF LINOZA TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "tipo": "Entrada",
+      "cantidad": 56,
+      "ticket": 1029,
+      "razon": "CEBRA FORESTAL"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV28",
+      "descripcion": "MELA-MDF CASTAÑA TX 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "tipo": "Entrada",
+      "cantidad": 56,
+      "ticket": 994,
+      "razon": "CEBRA FORESTAL"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV07",
+      "descripcion": "MELA-MDF FIORANO TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "tipo": "Entrada",
+      "cantidad": 112,
+      "ticket": 994,
+      "razon": "CEBRA FORESTAL"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV06",
+      "descripcion": "MELA-MDF DUNA TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "tipo": "Entrada",
+      "cantidad": 168,
+      "ticket": 994,
+      "razon": "CEBRA FORESTAL"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "CUBR02",
+      "descripcion": "MELA-MDF (D1) MOCA TX. 2/C 15MM 1.22 X 2.44 (CUBRICA)",
+      "tipo": "Entrada",
+      "cantidad": 2,
+      "ticket": 193956,
+      "razon": "ENVIADO DE TIENDA"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "MDF78",
+      "descripcion": "MDF BCO 2/C 3MM 1.22 X 2.44",
+      "tipo": "Entrada",
+      "cantidad": 1,
+      "ticket": 303965,
+      "razon": "ENVIADO DE TIENDA"
+    },
     {
       "fechaSerial": 46155,
       "fecha": "2026-05-13",
@@ -140617,8 +140737,8 @@
     },
     {
       "razon": "CEBRA FORESTAL",
-      "movimientos": 116,
-      "cantidad": 21827
+      "movimientos": 126,
+      "cantidad": 22947
     },
     {
       "razon": "PROMASA",
@@ -140642,8 +140762,8 @@
     },
     {
       "razon": "ENVIADO DE TIENDA",
-      "movimientos": 31,
-      "cantidad": 62
+      "movimientos": 33,
+      "cantidad": 65
     },
     {
       "razon": "COMSA",
@@ -140725,8 +140845,8 @@
     },
     {
       "proveedor": "CEBRA FORESTAL",
-      "entradas": 116,
-      "piezas": 21827
+      "entradas": 126,
+      "piezas": 22947
     },
     {
       "proveedor": "LAMSA",
@@ -140785,6 +140905,106 @@
     }
   ],
   "providerEntries": [
+    {
+      "fecha": "2026-05-14",
+      "fechaSerial": 46156,
+      "codigo": "NAV18",
+      "descripcion": "MELA-MDF TZALAM 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "piezas": 112,
+      "proveedor": "CEBRA FORESTAL",
+      "orden": 994,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-05-14",
+      "fechaSerial": 46156,
+      "codigo": "NAV20",
+      "descripcion": "MELA-MDF ROBLE BLANCO TX 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "piezas": 224,
+      "proveedor": "CEBRA FORESTAL",
+      "orden": 1029,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-05-14",
+      "fechaSerial": 46156,
+      "codigo": "NAV17",
+      "descripcion": "MELA-MDF CARRARA 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "piezas": 56,
+      "proveedor": "CEBRA FORESTAL",
+      "orden": 994,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-05-14",
+      "fechaSerial": 46156,
+      "codigo": "NAV19",
+      "descripcion": "MELA-MDF NOGAL TX 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "piezas": 56,
+      "proveedor": "CEBRA FORESTAL",
+      "orden": 994,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-05-14",
+      "fechaSerial": 46156,
+      "codigo": "NAV14",
+      "descripcion": "MELA-MDF POLAR TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "piezas": 112,
+      "proveedor": "CEBRA FORESTAL",
+      "orden": 1029,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-05-14",
+      "fechaSerial": 46156,
+      "codigo": "NAV23",
+      "descripcion": "MELA-MDF NEGRO 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "piezas": 168,
+      "proveedor": "CEBRA FORESTAL",
+      "orden": 1029,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-05-14",
+      "fechaSerial": 46156,
+      "codigo": "NAV10",
+      "descripcion": "MELA-MDF LINOZA TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "piezas": 56,
+      "proveedor": "CEBRA FORESTAL",
+      "orden": 1029,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-05-14",
+      "fechaSerial": 46156,
+      "codigo": "NAV28",
+      "descripcion": "MELA-MDF CASTAÑA TX 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "piezas": 56,
+      "proveedor": "CEBRA FORESTAL",
+      "orden": 994,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-05-14",
+      "fechaSerial": 46156,
+      "codigo": "NAV07",
+      "descripcion": "MELA-MDF FIORANO TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "piezas": 112,
+      "proveedor": "CEBRA FORESTAL",
+      "orden": 994,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-05-14",
+      "fechaSerial": 46156,
+      "codigo": "NAV06",
+      "descripcion": "MELA-MDF DUNA TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "piezas": 168,
+      "proveedor": "CEBRA FORESTAL",
+      "orden": 994,
+      "origen": "Movimientos"
+    },
     {
       "fecha": "2026-05-13",
       "fechaSerial": 46155,
