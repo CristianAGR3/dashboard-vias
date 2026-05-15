@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T14:49:06.960Z",
+  "generatedAt": "2026-05-15T16:15:04.160Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -3175,6 +3175,66 @@
       "codigo": "LMR-034",
       "descripcion": "MERANTI 2.5MM  3 X 7",
       "stock": 0
+    },
+    {
+      "segmento": "MADE",
+      "codigo": "MADE030",
+      "descripcion": "TABLA 3/4\" X 10\" X 8.25´ 1era",
+      "stock": 969
+    },
+    {
+      "segmento": "MADE",
+      "codigo": "MADE033",
+      "descripcion": "TABLA 3/4\" X 12\" X 8.25´ 1era",
+      "stock": 621
+    },
+    {
+      "segmento": "MADE",
+      "codigo": "MADE036",
+      "descripcion": "TABLA 3/4\" X 4\" X 8.25´ 1era",
+      "stock": 477
+    },
+    {
+      "segmento": "MADE",
+      "codigo": "MADE039",
+      "descripcion": "TABLA 3/4\" X 6\" X 8.25´ 1era",
+      "stock": 454
+    },
+    {
+      "segmento": "MADE",
+      "codigo": "MADE042",
+      "descripcion": "TABLA 3/4\" X 8\" X 8.25´ 1era",
+      "stock": 1191
+    },
+    {
+      "segmento": "MADE",
+      "codigo": "MADE045",
+      "descripcion": "TABLON 1 1/2\" X 10 \" X 8.25´ 1era",
+      "stock": 130
+    },
+    {
+      "segmento": "MADE",
+      "codigo": "MADE048",
+      "descripcion": "TABLON 1 1/2\" X 12 \" X 8.25´ 1era",
+      "stock": 278
+    },
+    {
+      "segmento": "MADE",
+      "codigo": "MADE051",
+      "descripcion": "TABLON 1 1/2\" X 4 \" X 8.25´ 1era",
+      "stock": 27
+    },
+    {
+      "segmento": "MADE",
+      "codigo": "MADE054",
+      "descripcion": "TABLON 1 1/2\" X 6 \" X 8.25´ 1era",
+      "stock": 66
+    },
+    {
+      "segmento": "MADE",
+      "codigo": "MADE057",
+      "descripcion": "TABLON 1 1/2\" X 8 \" X 8.25´ 1era",
+      "stock": 264
     },
     {
       "segmento": "MC",
@@ -6715,6 +6775,106 @@
       "cantidad": 1,
       "ticket": 356895,
       "razon": "ENVIADO DE TIENDA"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "MADE048",
+      "descripcion": "TABLON 1 1/2\" X 12 \" X 8.25´ 1era",
+      "tipo": "Entrada",
+      "cantidad": 278,
+      "ticket": 11285,
+      "razon": "MADERA"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "MADE045",
+      "descripcion": "TABLON 1 1/2\" X 10 \" X 8.25´ 1era",
+      "tipo": "Entrada",
+      "cantidad": 130,
+      "ticket": 11285,
+      "razon": "MADERA"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "MADE057",
+      "descripcion": "TABLON 1 1/2\" X 8 \" X 8.25´ 1era",
+      "tipo": "Entrada",
+      "cantidad": 264,
+      "ticket": 11285,
+      "razon": "MADERA"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "MADE054",
+      "descripcion": "TABLON 1 1/2\" X 6 \" X 8.25´ 1era",
+      "tipo": "Entrada",
+      "cantidad": 66,
+      "ticket": 11285,
+      "razon": "MADERA"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "MADE051",
+      "descripcion": "TABLON 1 1/2\" X 4 \" X 8.25´ 1era",
+      "tipo": "Entrada",
+      "cantidad": 27,
+      "ticket": 11285,
+      "razon": "MADERA"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "MADE033",
+      "descripcion": "TABLA 3/4\" X 12\" X 8.25´ 1era",
+      "tipo": "Entrada",
+      "cantidad": 621,
+      "ticket": 11285,
+      "razon": "MADERA"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "MADE030",
+      "descripcion": "TABLA 3/4\" X 10\" X 8.25´ 1era",
+      "tipo": "Entrada",
+      "cantidad": 969,
+      "ticket": 11285,
+      "razon": "MADERA"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "MADE042",
+      "descripcion": "TABLA 3/4\" X 8\" X 8.25´ 1era",
+      "tipo": "Entrada",
+      "cantidad": 1191,
+      "ticket": 11285,
+      "razon": "MADERA"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "MADE039",
+      "descripcion": "TABLA 3/4\" X 6\" X 8.25´ 1era",
+      "tipo": "Entrada",
+      "cantidad": 454,
+      "ticket": 11285,
+      "razon": "MADERA"
+    },
+    {
+      "fechaSerial": 46155,
+      "fecha": "2026-05-13",
+      "codigo": "MADE036",
+      "descripcion": "TABLA 3/4\" X 4\" X 8.25´ 1era",
+      "tipo": "Entrada",
+      "cantidad": 477,
+      "ticket": 11285,
+      "razon": "MADERA"
     },
     {
       "fechaSerial": 46154,
@@ -141251,6 +141411,11 @@
       "cantidad": 506
     },
     {
+      "razon": "MADERA",
+      "movimientos": 10,
+      "cantidad": 4477
+    },
+    {
       "razon": "SIN RAZON",
       "movimientos": 9,
       "cantidad": 4397
@@ -141269,11 +141434,6 @@
       "razon": "MUESTRARIOS",
       "movimientos": 8,
       "cantidad": 8
-    },
-    {
-      "razon": "DURAPLAY",
-      "movimientos": 6,
-      "cantidad": 2849
     }
   ],
   "providers": [
