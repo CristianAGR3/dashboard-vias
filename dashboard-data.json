@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T00:04:06.148Z",
+  "generatedAt": "2026-05-15T14:49:06.960Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -12063,7 +12063,7 @@
       "descripcion": "MELA-MDF OXFORD TX. 2/C 15MM 1.22 X2.44 (ASIGMA)",
       "tipo": "Entrada",
       "cantidad": 120,
-      "ticket": 2573,
+      "ticket": 2571,
       "razon": ""
     },
     {
@@ -32313,7 +32313,7 @@
       "descripcion": "ANGULO P/LAMBRIN INTERIOR BAHIA 30 X 30 X 2900MM (TK-ST)",
       "tipo": "Salida",
       "cantidad": 4,
-      "ticket": 2104,
+      "ticket": 2103,
       "razon": ""
     },
     {
@@ -32323,7 +32323,7 @@
       "descripcion": "ANGULO P/LAMBRIN INTERIOR SAO PAULO 30 X 30 X 2900MM (TK-ST)",
       "tipo": "Entrada",
       "cantidad": 4,
-      "ticket": 2104,
+      "ticket": 2103,
       "razon": ""
     },
     {
@@ -32333,7 +32333,7 @@
       "descripcion": "ANGULO P/LAMBRIN INTERIOR BRASILIA 30 X 30 X 2900MM (TK-ST)",
       "tipo": "Entrada",
       "cantidad": 4,
-      "ticket": 2104,
+      "ticket": 2103,
       "razon": ""
     },
     {
@@ -32343,7 +32343,7 @@
       "descripcion": "ANGULO P/LAMBRIN INTERIOR RODEIRO 30 X 30 X 2900MM (TK-ST)",
       "tipo": "Entrada",
       "cantidad": 1,
-      "ticket": 2104,
+      "ticket": 2103,
       "razon": ""
     },
     {
@@ -34313,7 +34313,7 @@
       "descripcion": "CLIP ACERO INOX. P/WPC LAMBRIN INTERIOR 34MM X 49 (TK-ST)",
       "tipo": "Salida",
       "cantidad": 4000,
-      "ticket": 2458,
+      "ticket": 2456,
       "razon": ""
     },
     {
@@ -41654,7 +41654,7 @@
       "tipo": "Entrada",
       "cantidad": 2,
       "ticket": 808,
-      "razon": "PELIKAN"
+      "razon": "TSAMA"
     },
     {
       "fechaSerial": 46085,
@@ -41664,7 +41664,7 @@
       "tipo": "Entrada",
       "cantidad": 1,
       "ticket": 808,
-      "razon": "PELIKAN"
+      "razon": "TSAMA"
     },
     {
       "fechaSerial": 46085,
@@ -108183,7 +108183,7 @@
       "descripcion": "MELA-MDP NOGAL TERRACOTA TX. 2/C  18MM 1.83 X 2.50 (VESTO)",
       "tipo": "Salida",
       "cantidad": 234,
-      "ticket": 1883,
+      "ticket": 1882,
       "razon": ""
     },
     {
@@ -115804,7 +115804,7 @@
       "tipo": "Entrada",
       "cantidad": 1,
       "ticket": 9895,
-      "razon": "KRONOSPAM"
+      "razon": "KRONOS"
     },
     {
       "fechaSerial": 45946,
@@ -128264,7 +128264,7 @@
       "tipo": "Salida",
       "cantidad": 1,
       "ticket": 167671,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128274,7 +128274,7 @@
       "tipo": "Salida",
       "cantidad": 2,
       "ticket": 167671,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128284,7 +128284,7 @@
       "tipo": "Salida",
       "cantidad": 57,
       "ticket": 1561,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128294,7 +128294,7 @@
       "tipo": "Salida",
       "cantidad": 2,
       "ticket": 167608,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128304,7 +128304,7 @@
       "tipo": "Salida",
       "cantidad": 1,
       "ticket": 167596,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128314,7 +128314,7 @@
       "tipo": "Salida",
       "cantidad": 4,
       "ticket": 344516,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128324,7 +128324,7 @@
       "tipo": "Salida",
       "cantidad": 1,
       "ticket": 288557,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128334,7 +128334,7 @@
       "tipo": "Salida",
       "cantidad": 1,
       "ticket": 288557,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128344,7 +128344,7 @@
       "tipo": "Salida",
       "cantidad": 4,
       "ticket": 288557,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128354,7 +128354,7 @@
       "tipo": "Salida",
       "cantidad": 1,
       "ticket": 288634,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128364,7 +128364,7 @@
       "tipo": "Salida",
       "cantidad": 7,
       "ticket": 288698,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128374,7 +128374,7 @@
       "tipo": "Salida",
       "cantidad": 4,
       "ticket": 288698,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128384,7 +128384,7 @@
       "tipo": "Salida",
       "cantidad": 1,
       "ticket": 288698,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45923,
@@ -128394,7 +128394,7 @@
       "tipo": "Salida",
       "cantidad": 2,
       "ticket": 288698,
-      "razon": "rt"
+      "razon": "RT"
     },
     {
       "fechaSerial": 45922,
@@ -131112,7 +131112,7 @@
       "codigo": "#N/A",
       "descripcion": "",
       "tipo": "Salida",
-      "cantidad": 2062,
+      "cantidad": 2061,
       "ticket": "",
       "razon": "INVENTARIO NEW"
     },
@@ -141157,8 +141157,8 @@
     },
     {
       "razon": "RT",
-      "movimientos": 3750,
-      "cantidad": 16420
+      "movimientos": 3764,
+      "cantidad": 16508
     },
     {
       "razon": "LG",
@@ -141173,7 +141173,7 @@
     {
       "razon": "INVENTARIO NEW",
       "movimientos": 929,
-      "cantidad": 51646
+      "cantidad": 51645
     },
     {
       "razon": "GAVILAN",
@@ -141231,19 +141231,14 @@
       "cantidad": 875
     },
     {
-      "razon": "rt",
-      "movimientos": 15,
-      "cantidad": 90
+      "razon": "TSAMA",
+      "movimientos": 14,
+      "cantidad": 160
     },
     {
       "razon": "EVENTO 18 DE MARZO",
       "movimientos": 14,
       "cantidad": 14
-    },
-    {
-      "razon": "TSAMA",
-      "movimientos": 12,
-      "cantidad": 157
     },
     {
       "razon": "WOODSTAR",
@@ -141274,6 +141269,11 @@
       "razon": "MUESTRARIOS",
       "movimientos": 8,
       "cantidad": 8
+    },
+    {
+      "razon": "DURAPLAY",
+      "movimientos": 6,
+      "cantidad": 2849
     }
   ],
   "providers": [
@@ -141360,8 +141360,8 @@
     },
     {
       "proveedor": "TSAMA",
-      "entradas": 12,
-      "piezas": 157
+      "entradas": 14,
+      "piezas": 160
     }
   ],
   "providerEntries": [
@@ -141722,7 +141722,7 @@
       "descripcion": "MELA-MDF OXFORD TX. 2/C 15MM 1.22 X2.44 (ASIGMA)",
       "piezas": 120,
       "proveedor": "ASIGMA",
-      "orden": 2573,
+      "orden": 2571,
       "origen": "Movimientos"
     },
     {
@@ -144793,6 +144793,26 @@
       "piezas": 96,
       "proveedor": "LAMSA",
       "orden": 819,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-03-04",
+      "fechaSerial": 46085,
+      "codigo": "PLK10",
+      "descripcion": "MELA-MDP CEMENTO 2/C 15MM 2.15 X 2.44",
+      "piezas": 2,
+      "proveedor": "TSAMA",
+      "orden": 808,
+      "origen": "Movimientos"
+    },
+    {
+      "fecha": "2026-03-04",
+      "fechaSerial": 46085,
+      "codigo": "PLK11",
+      "descripcion": "MELA-MDP ROBLE BLANCO 2/C 15MM 2.15 X 2.44",
+      "piezas": 1,
+      "proveedor": "TSAMA",
+      "orden": 808,
       "origen": "Movimientos"
     },
     {
@@ -156928,9 +156948,53 @@
       "codigo": "MDF78",
       "descripcion": "MDF BCO 2/C 3MM 1.22 X 2.44",
       "cantidad": 1,
+      "ticket": 356895,
+      "razon": "ENVIADO DE TIENDA",
+      "tipo": "Entrada",
+      "fecha": "2026-05-13",
+      "grupo": 2,
+      "periodo": "Desde Dic-2025"
+    },
+    {
+      "codigo": "CUBR02",
+      "descripcion": "MELA-MDF (D1) MOCA TX. 2/C 15MM 1.22 X 2.44 (CUBRICA)",
+      "cantidad": 2,
+      "ticket": 193956,
+      "razon": "ENVIADO DE TIENDA",
+      "tipo": "Entrada",
+      "fecha": "2026-05-14",
+      "grupo": 2,
+      "periodo": "Desde Dic-2025"
+    },
+    {
+      "codigo": "MDF78",
+      "descripcion": "MDF BCO 2/C 3MM 1.22 X 2.44",
+      "cantidad": 1,
       "ticket": 303965,
       "razon": "ENVIADO DE TIENDA",
       "tipo": "Entrada",
+      "fecha": "2026-05-14",
+      "grupo": 2,
+      "periodo": "Desde Dic-2025"
+    },
+    {
+      "codigo": "CUBR02",
+      "descripcion": "MELA-MDF (D1) MOCA TX. 2/C 15MM 1.22 X 2.44 (CUBRICA)",
+      "cantidad": 2,
+      "ticket": 193956,
+      "razon": "PD",
+      "tipo": "Salida",
+      "fecha": "2026-05-14",
+      "grupo": 2,
+      "periodo": "Desde Dic-2025"
+    },
+    {
+      "codigo": "MDF78",
+      "descripcion": "MDF BCO 2/C 3MM 1.22 X 2.44",
+      "cantidad": 1,
+      "ticket": 356895,
+      "razon": "PD",
+      "tipo": "Salida",
       "fecha": "2026-05-14",
       "grupo": 2,
       "periodo": "Desde Dic-2025"
