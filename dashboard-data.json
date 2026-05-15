@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T21:09:07.172Z",
+  "generatedAt": "2026-05-15T22:26:14.886Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -960,7 +960,7 @@
       "segmento": "ASIG",
       "codigo": "ASIG17",
       "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
-      "stock": 157
+      "stock": 131
     },
     {
       "segmento": "ASIG",
@@ -5670,7 +5670,7 @@
       "segmento": "WOOD",
       "codigo": "WOOD09",
       "descripcion": "MELA-MDF 8101-2 CIPRESS 2/C 15MM 1.22 X 2.44 (WOODSTAR)",
-      "stock": 30
+      "stock": 29
     },
     {
       "segmento": "WOOD",
@@ -6374,6 +6374,146 @@
       "tipo": "Salida",
       "cantidad": 1,
       "ticket": 194555,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304365,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304366,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304364,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304363,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304362,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304361,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304360,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304359,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304358,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304357,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304355,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304356,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304352,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "WOOD09",
+      "descripcion": "MELA-MDF 8101-2 CIPRESS 2/C 15MM 1.22 X 2.44 (WOODSTAR)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 304402,
       "razon": "RT"
     },
     {
@@ -142007,8 +142147,8 @@
     },
     {
       "razon": "RT",
-      "movimientos": 3789,
-      "cantidad": 16581
+      "movimientos": 3803,
+      "cantidad": 16608
     },
     {
       "razon": "LG",
