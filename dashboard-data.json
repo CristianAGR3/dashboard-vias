@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T22:26:14.886Z",
+  "generatedAt": "2026-05-15T23:58:50.228Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -720,13 +720,13 @@
       "segmento": "ARA",
       "codigo": "ARA68",
       "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 1593
+      "stock": 1542
     },
     {
       "segmento": "ARA",
       "codigo": "ARA70",
       "descripcion": "MELA-MDF CAIRO TX. 2/C  15MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 5
+      "stock": 0
     },
     {
       "segmento": "ARA",
@@ -960,7 +960,7 @@
       "segmento": "ASIG",
       "codigo": "ASIG17",
       "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
-      "stock": 131
+      "stock": 129
     },
     {
       "segmento": "ASIG",
@@ -1854,7 +1854,7 @@
       "segmento": "CUBR",
       "codigo": "CUBR125",
       "descripcion": "MELA-MDF (D25) TZALAM SINCRO 2/C 15MM 1.22 X 2.44 (CUBRICA)",
-      "stock": 106
+      "stock": 100
     },
     {
       "segmento": "CUBR",
@@ -2106,7 +2106,7 @@
       "segmento": "CUBR",
       "codigo": "CUBR53",
       "descripcion": "MELA-MDF (D21) CENIZA TX. 2/C 15MM 1.22 X 2.44 (CUBRICA)",
-      "stock": 106
+      "stock": 102
     },
     {
       "segmento": "CUBR",
@@ -3372,7 +3372,7 @@
       "segmento": "MC",
       "codigo": "MC23",
       "descripcion": "MELA-MDF BLACK 2/C 15MM 1.22 X 2.44 (MCCORRY)",
-      "stock": 109
+      "stock": 107
     },
     {
       "segmento": "MC",
@@ -3498,7 +3498,7 @@
       "segmento": "MDF",
       "codigo": "MDF13",
       "descripcion": "MDF 18MM 1.22 X 2.44(BERNECK)",
-      "stock": 154
+      "stock": 151
     },
     {
       "segmento": "MDF",
@@ -4494,7 +4494,7 @@
       "segmento": "NAV",
       "codigo": "NAV27",
       "descripcion": "MELA-MDF ROBLE CENIZO TX 2C 15 MM 1.22 X 2.44 (NAVETTA)",
-      "stock": 65
+      "stock": 63
     },
     {
       "segmento": "NAV",
@@ -5364,7 +5364,7 @@
       "segmento": "VST",
       "codigo": "VST11",
       "descripcion": "MELA-MDP CENDRA  TX. 2/C 15MM  1.83 X 2.50 (VESTO)",
-      "stock": 153
+      "stock": 133
     },
     {
       "segmento": "VST",
@@ -5394,7 +5394,7 @@
       "segmento": "VST",
       "codigo": "VST16",
       "descripcion": "MELA-MDP LINOSA CENIZA TX. 2/C 15MM 1.83 X 2.50 (VESTO)",
-      "stock": 106
+      "stock": 104
     },
     {
       "segmento": "VST",
@@ -5454,7 +5454,7 @@
       "segmento": "VST",
       "codigo": "VST26",
       "descripcion": "MELA-MDP NOUGAT TX. 2/C 15MM 1.83 X 2.50 (VESTO)",
-      "stock": 116
+      "stock": 114
     },
     {
       "segmento": "VST",
@@ -6515,6 +6515,166 @@
       "cantidad": 1,
       "ticket": 304402,
       "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "VST11",
+      "descripcion": "MELA-MDP CENDRA  TX. 2/C 15MM  1.83 X 2.50 (VESTO)",
+      "tipo": "Salida",
+      "cantidad": 20,
+      "ticket": 1743,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ASIG17",
+      "descripcion": "MELA-MDF CAPUCCINO TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304368,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "NAV27",
+      "descripcion": "MELA-MDF ROBLE CENIZO TX 2C 15 MM 1.22 X 2.44 (NAVETTA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304398,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "VST26",
+      "descripcion": "MELA-MDP NOUGAT TX. 2/C 15MM 1.83 X 2.50 (VESTO)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304245,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "MC23",
+      "descripcion": "MELA-MDF BLACK 2/C 15MM 1.22 X 2.44 (MCCORRY)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 193208,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ARA68",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 193208,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ARA68",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 9,
+      "ticket": 193208,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ARA68",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 5,
+      "ticket": 193208,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ARA68",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 10,
+      "ticket": 193208,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ARA68",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 17,
+      "ticket": 193208,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ARA70",
+      "descripcion": "MELA-MDF CAIRO TX. 2/C  15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 5,
+      "ticket": 193208,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "CUBR125",
+      "descripcion": "MELA-MDF (D25) TZALAM SINCRO 2/C 15MM 1.22 X 2.44 (CUBRICA)",
+      "tipo": "Salida",
+      "cantidad": 6,
+      "ticket": 193208,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "CUBR53",
+      "descripcion": "MELA-MDF (D21) CENIZA TX. 2/C 15MM 1.22 X 2.44 (CUBRICA)",
+      "tipo": "Salida",
+      "cantidad": 4,
+      "ticket": 193208,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "MDF13",
+      "descripcion": "MDF 18MM 1.22 X 2.44(BERNECK)",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 193208,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "VST16",
+      "descripcion": "MELA-MDP LINOSA CENIZA TX. 2/C 15MM 1.83 X 2.50 (VESTO)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 193615,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46157,
+      "fecha": "2026-05-15",
+      "codigo": "ARA68",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 7,
+      "ticket": 356862,
+      "razon": "PD"
     },
     {
       "fechaSerial": 46156,
@@ -141997,8 +142157,8 @@
     {
       "codigo": "ARA68",
       "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
-      "movimientos": 372,
-      "cantidad": 2409
+      "movimientos": 378,
+      "cantidad": 2460
     },
     {
       "codigo": "ARA132",
@@ -142111,8 +142271,8 @@
     {
       "codigo": "VST11",
       "descripcion": "MELA-MDP CENDRA  TX. 2/C 15MM  1.83 X 2.50 (VESTO)",
-      "movimientos": 41,
-      "cantidad": 410
+      "movimientos": 42,
+      "cantidad": 430
     },
     {
       "codigo": "NAV20",
@@ -142142,18 +142302,18 @@
   "reasons": [
     {
       "razon": "PD",
-      "movimientos": 4470,
-      "cantidad": 23757
+      "movimientos": 4482,
+      "cantidad": 23830
     },
     {
       "razon": "RT",
-      "movimientos": 3803,
-      "cantidad": 16608
+      "movimientos": 3806,
+      "cantidad": 16632
     },
     {
       "razon": "LG",
-      "movimientos": 1768,
-      "cantidad": 9610
+      "movimientos": 1769,
+      "cantidad": 9612
     },
     {
       "razon": "Traspasos enviados a tienda",
