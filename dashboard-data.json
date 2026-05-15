@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T23:06:47.506Z",
+  "generatedAt": "2026-05-15T00:00:19.714Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -30,7 +30,7 @@
       "segmento": "ARA",
       "codigo": "ARA06",
       "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 4268
+      "stock": 4258
     },
     {
       "segmento": "ARA",
@@ -426,7 +426,7 @@
       "segmento": "ARA",
       "codigo": "ARA161",
       "descripcion": "MELA-AGLO BCO FROSTY MATE 2/C 15MM 1.22X 2.44 (ARAUCO)",
-      "stock": 93
+      "stock": 89
     },
     {
       "segmento": "ARA",
@@ -510,7 +510,7 @@
       "segmento": "ARA",
       "codigo": "ARA31",
       "descripcion": "MELA-AGLO. MONARCA  TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 188
+      "stock": 181
     },
     {
       "segmento": "ARA",
@@ -528,7 +528,7 @@
       "segmento": "ARA",
       "codigo": "ARA34",
       "descripcion": "MELA-AGLO. NEGRO MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 204
+      "stock": 199
     },
     {
       "segmento": "ARA",
@@ -570,7 +570,7 @@
       "segmento": "ARA",
       "codigo": "ARA41",
       "descripcion": "MELA-AGLO. OPORTO TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 107
+      "stock": 105
     },
     {
       "segmento": "ARA",
@@ -696,7 +696,7 @@
       "segmento": "ARA",
       "codigo": "ARA64",
       "descripcion": "MELA-MDF BCO. FROSTY MATE  2/C 18MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 579
+      "stock": 578
     },
     {
       "segmento": "ARA",
@@ -720,7 +720,7 @@
       "segmento": "ARA",
       "codigo": "ARA68",
       "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 1609
+      "stock": 1596
     },
     {
       "segmento": "ARA",
@@ -858,7 +858,7 @@
       "segmento": "ARA",
       "codigo": "ARA98",
       "descripcion": "MELA-MDF COPAL TX. 2/C 15MM 1.22 X 2.44 (ARAUCO)",
-      "stock": 72
+      "stock": 68
     },
     {
       "segmento": "ARA",
@@ -900,7 +900,7 @@
       "segmento": "ASIG",
       "codigo": "ASIG06",
       "descripcion": "MELA-MDF NOGAL TX. 2/C 15MM 1.22 X2.44 (ASIGMA)",
-      "stock": 77
+      "stock": 74
     },
     {
       "segmento": "ASIG",
@@ -918,13 +918,13 @@
       "segmento": "ASIG",
       "codigo": "ASIG10",
       "descripcion": "MELA-MDF GRAY WOOD TX. 1/C 5.5MM 1.22 X2.44 (ASIGMA)",
-      "stock": 277
+      "stock": 275
     },
     {
       "segmento": "ASIG",
       "codigo": "ASIG11",
       "descripcion": "MELA-MDF NOGAL TX. 1/C 5.5MM 1.22 X2.44 (ASIGMA)",
-      "stock": 166
+      "stock": 123
     },
     {
       "segmento": "ASIG",
@@ -972,7 +972,7 @@
       "segmento": "ASIG",
       "codigo": "ASIG19",
       "descripcion": "MELA-MDF CAOBA TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
-      "stock": 118
+      "stock": 114
     },
     {
       "segmento": "ASIG",
@@ -1644,7 +1644,7 @@
       "segmento": "CUBR",
       "codigo": "CUBR02",
       "descripcion": "MELA-MDF (D1) MOCA TX. 2/C 15MM 1.22 X 2.44 (CUBRICA)",
-      "stock": 5
+      "stock": 3
     },
     {
       "segmento": "CUBR",
@@ -1662,7 +1662,7 @@
       "segmento": "CUBR",
       "codigo": "CUBR05",
       "descripcion": "MELA-MDF (D2) MARANELLO TX. 2/C 15 MM 1.22 X 2.44 (CUBRICA)",
-      "stock": 242
+      "stock": 239
     },
     {
       "segmento": "CUBR",
@@ -1752,7 +1752,7 @@
       "segmento": "CUBR",
       "codigo": "CUBR109",
       "descripcion": "MELA-MDF (D18) NEGRO C/PROTECTOR 2/C 15MM 1.22 X 2.44 (CUBRICA)",
-      "stock": 90
+      "stock": 89
     },
     {
       "segmento": "CUBR",
@@ -2034,7 +2034,7 @@
       "segmento": "CUBR",
       "codigo": "CUBR41",
       "descripcion": "MELA-MDF (D17) PAROTA TX. 2/C 15MM 1.22 X 2.44 (CUBRICA)",
-      "stock": 77
+      "stock": 72
     },
     {
       "segmento": "CUBR",
@@ -2316,7 +2316,7 @@
       "segmento": "CUBR",
       "codigo": "CUBR88",
       "descripcion": "MELA-MDF (D37) MARQUINA TX. 1/C 5MM 1.22 X 2.44 (CUBRICA)",
-      "stock": 4
+      "stock": 3
     },
     {
       "segmento": "CUBR",
@@ -3390,7 +3390,7 @@
       "segmento": "MDF",
       "codigo": "MDF06",
       "descripcion": "MDF 15MM  1.22 X 2.44 (TRUPAN CHILENO)",
-      "stock": 78
+      "stock": 74
     },
     {
       "segmento": "MDF",
@@ -3546,7 +3546,7 @@
       "segmento": "MDF",
       "codigo": "MDF312",
       "descripcion": "MDF 12MM TRUPAN CHILENO",
-      "stock": 381
+      "stock": 380
     },
     {
       "segmento": "MDF",
@@ -3588,7 +3588,7 @@
       "segmento": "MDF",
       "codigo": "MDF39",
       "descripcion": "MDF BCO 1/C 3MM 1.22 X 2.44",
-      "stock": 564
+      "stock": 563
     },
     {
       "segmento": "MDF",
@@ -3606,7 +3606,7 @@
       "segmento": "MDF",
       "codigo": "MDF42",
       "descripcion": "MDF CHAPA ENCINO 2/C 15MM 1.22 X 2.44",
-      "stock": 104
+      "stock": 100
     },
     {
       "segmento": "MDF",
@@ -3654,19 +3654,19 @@
       "segmento": "MDF",
       "codigo": "MDF50",
       "descripcion": "MDF CHAPA OKUME 2/C 4MM 1.22 X 2.44",
-      "stock": 176
+      "stock": 175
     },
     {
       "segmento": "MDF",
       "codigo": "MDF51",
       "descripcion": "MDF CHAPA PAROTA 1/C 5MM 1.22 X 2.44",
-      "stock": 113
+      "stock": 112
     },
     {
       "segmento": "MDF",
       "codigo": "MDF52",
       "descripcion": "MDF CHAPA PAROTA 2/C 15MM 1.22 X 2.44",
-      "stock": 156
+      "stock": 152
     },
     {
       "segmento": "MDF",
@@ -3732,13 +3732,13 @@
       "segmento": "MDF",
       "codigo": "MDF66",
       "descripcion": "PERFIL NEGRO (CAJA 4PZAS) 18MM  12 X 2.80 (GAV.)",
-      "stock": 8
+      "stock": 7
     },
     {
       "segmento": "MDF",
       "codigo": "MDF67",
       "descripcion": "PERFIL NOGAL (CAJA 4PZAS) 18 X 12 X 2.80",
-      "stock": 23
+      "stock": 16
     },
     {
       "segmento": "MDF",
@@ -3792,7 +3792,7 @@
       "segmento": "MDF",
       "codigo": "MDF78",
       "descripcion": "MDF BCO 2/C 3MM 1.22 X 2.44",
-      "stock": 1
+      "stock": 0
     },
     {
       "segmento": "MELA",
@@ -4356,7 +4356,7 @@
       "segmento": "NAV",
       "codigo": "NAV14",
       "descripcion": "MELA-MDF POLAR TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "stock": 614
+      "stock": 606
     },
     {
       "segmento": "NAV",
@@ -4374,7 +4374,7 @@
       "segmento": "NAV",
       "codigo": "NAV17",
       "descripcion": "MELA-MDF CARRARA 2/C 15MM 1.22 X 2.44 (NAVETTA)",
-      "stock": 143
+      "stock": 141
     },
     {
       "segmento": "NAV",
@@ -4386,7 +4386,7 @@
       "segmento": "NAV",
       "codigo": "NAV19",
       "descripcion": "MELA-MDF NOGAL TX 2/C 15MM 1.22 X 2.44 (NAVETTA)",
-      "stock": 445
+      "stock": 443
     },
     {
       "segmento": "NAV",
@@ -4536,7 +4536,7 @@
       "segmento": "TKS",
       "codigo": "TKS-03",
       "descripcion": "PLACA TIPO MARMOL AGATA 1/C 3MM 1.22 X 2.44 (TK-ST)",
-      "stock": 123
+      "stock": 120
     },
     {
       "segmento": "TKS",
@@ -4548,7 +4548,7 @@
       "segmento": "TKS",
       "codigo": "TKS-05",
       "descripcion": "PLACA TIPO MARMOL ZAFIRO 1/C 3MM 1.22 X 2.44 (TK-ST)",
-      "stock": 25
+      "stock": 24
     },
     {
       "segmento": "TKS",
@@ -4566,7 +4566,7 @@
       "segmento": "TKS",
       "codigo": "TKS-08",
       "descripcion": "LAMBRIN INTERIOR BAHIA 24MM 16 X 2.90 C/14PZ (TK-ST)",
-      "stock": 26
+      "stock": 24
     },
     {
       "segmento": "TKS",
@@ -4584,7 +4584,7 @@
       "segmento": "TKS",
       "codigo": "TKS-11",
       "descripcion": "LAMBRIN INTERIOR RIO 24MM 16 X 2.90 C/14PZ (TK-ST)",
-      "stock": 33
+      "stock": 32
     },
     {
       "segmento": "TKS",
@@ -4662,7 +4662,7 @@
       "segmento": "TKS",
       "codigo": "TKS-24",
       "descripcion": "ANGULO P/LAMBRIN RIO 30 X 30 X 2900MM (TK-ST)",
-      "stock": 30
+      "stock": 28
     },
     {
       "segmento": "TKS",
@@ -4800,7 +4800,7 @@
       "segmento": "TKS",
       "codigo": "TKS-47",
       "descripcion": "PLACA TIPO MARMOL ONIX 1/C 3MM 1.22 X 2.44 (TK-ST)",
-      "stock": 25
+      "stock": 24
     },
     {
       "segmento": "TKS",
@@ -5034,7 +5034,7 @@
       "segmento": "TPY",
       "codigo": "TPY18",
       "descripcion": "PINO 15 MM 1.22 X 2.44  CHILENO",
-      "stock": 321
+      "stock": 318
     },
     {
       "segmento": "TPY",
@@ -5112,7 +5112,7 @@
       "segmento": "TPY",
       "codigo": "TPY32",
       "descripcion": "PINO 6MM 1.22 X 2.44 ASIATICO",
-      "stock": 728
+      "stock": 727
     },
     {
       "segmento": "TPY",
@@ -5250,7 +5250,7 @@
       "segmento": "TPY",
       "codigo": "TPY62",
       "descripcion": "TRIPLAY 18MM 1.22 X 2.44 ENCINO",
-      "stock": 39
+      "stock": 36
     },
     {
       "segmento": "VST",
@@ -5765,6 +5765,446 @@
       "cantidad": 96,
       "ticket": 1035,
       "razon": "GAVILAN"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ASIG11",
+      "descripcion": "MELA-MDF NOGAL TX. 1/C 5.5MM 1.22 X2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 25,
+      "ticket": 304191,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "MDF67",
+      "descripcion": "PERFIL NOGAL (CAJA 4PZAS) 18 X 12 X 2.80",
+      "tipo": "Salida",
+      "cantidad": 7,
+      "ticket": 356990,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "MDF06",
+      "descripcion": "MDF 15MM  1.22 X 2.44 (TRUPAN CHILENO)",
+      "tipo": "Salida",
+      "cantidad": 4,
+      "ticket": 194199,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "MDF50",
+      "descripcion": "MDF CHAPA OKUME 2/C 4MM 1.22 X 2.44",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 194199,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV19",
+      "descripcion": "MELA-MDF NOGAL TX 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 194289,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ASIG10",
+      "descripcion": "MELA-MDF GRAY WOOD TX. 1/C 5.5MM 1.22 X2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304192,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "MDF51",
+      "descripcion": "MDF CHAPA PAROTA 1/C 5MM 1.22 X 2.44",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 304192,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "MDF52",
+      "descripcion": "MDF CHAPA PAROTA 2/C 15MM 1.22 X 2.44",
+      "tipo": "Salida",
+      "cantidad": 4,
+      "ticket": 304192,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ASIG11",
+      "descripcion": "MELA-MDF NOGAL TX. 1/C 5.5MM 1.22 X2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 18,
+      "ticket": 304190,
+      "razon": "LG"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "TKS-03",
+      "descripcion": "PLACA TIPO MARMOL AGATA 1/C 3MM 1.22 X 2.44 (TK-ST)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 356966,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ARA64",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE  2/C 18MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 304004,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ARA68",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 4,
+      "ticket": 304004,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "MDF312",
+      "descripcion": "MDF 12MM TRUPAN CHILENO",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 304004,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "TPY18",
+      "descripcion": "PINO 15 MM 1.22 X 2.44  CHILENO",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 304004,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV14",
+      "descripcion": "MELA-MDF POLAR TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
+      "tipo": "Salida",
+      "cantidad": 8,
+      "ticket": 193871,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ASIG06",
+      "descripcion": "MELA-MDF NOGAL TX. 2/C 15MM 1.22 X2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 194003,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "CUBR02",
+      "descripcion": "MELA-MDF (D1) MOCA TX. 2/C 15MM 1.22 X 2.44 (CUBRICA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 193956,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "CUBR41",
+      "descripcion": "MELA-MDF (D17) PAROTA TX. 2/C 15MM 1.22 X 2.44 (CUBRICA)",
+      "tipo": "Salida",
+      "cantidad": 5,
+      "ticket": 356914,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "CUBR05",
+      "descripcion": "MELA-MDF (D2) MARANELLO TX. 2/C 15 MM 1.22 X 2.44 (CUBRICA)",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 193803,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ARA34",
+      "descripcion": "MELA-AGLO. NEGRO MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 5,
+      "ticket": 303716,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ARA98",
+      "descripcion": "MELA-MDF COPAL TX. 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 4,
+      "ticket": 303716,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ARA68",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 6,
+      "ticket": 193994,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "MDF42",
+      "descripcion": "MDF CHAPA ENCINO 2/C 15MM 1.22 X 2.44",
+      "tipo": "Salida",
+      "cantidad": 4,
+      "ticket": 193994,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "MDF78",
+      "descripcion": "MDF BCO 2/C 3MM 1.22 X 2.44",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 356895,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ARA06",
+      "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 10,
+      "ticket": 356894,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ARA31",
+      "descripcion": "MELA-AGLO. MONARCA  TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 7,
+      "ticket": 193810,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ARA68",
+      "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 303972,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "NAV17",
+      "descripcion": "MELA-MDF CARRARA 2/C 15MM 1.22 X 2.44 (NAVETTA)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 303972,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "TPY18",
+      "descripcion": "PINO 15 MM 1.22 X 2.44  CHILENO",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304003,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "TPY32",
+      "descripcion": "PINO 6MM 1.22 X 2.44 ASIATICO",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 304003,
+      "razon": "PD"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "TPY62",
+      "descripcion": "TRIPLAY 18MM 1.22 X 2.44 ENCINO",
+      "tipo": "Salida",
+      "cantidad": 3,
+      "ticket": 304292,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "MDF39",
+      "descripcion": "MDF BCO 1/C 3MM 1.22 X 2.44",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 304001,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ARA161",
+      "descripcion": "MELA-AGLO BCO FROSTY MATE 2/C 15MM 1.22X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 4,
+      "ticket": 194376,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "TKS-24",
+      "descripcion": "ANGULO P/LAMBRIN RIO 30 X 30 X 2900MM (TK-ST)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 357035,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "MDF66",
+      "descripcion": "PERFIL NEGRO (CAJA 4PZAS) 18MM  12 X 2.80 (GAV.)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 304115,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "CUBR109",
+      "descripcion": "MELA-MDF (D18) NEGRO C/PROTECTOR 2/C 15MM 1.22 X 2.44 (CUBRICA)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 194407,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "TKS-08",
+      "descripcion": "LAMBRIN INTERIOR BAHIA 24MM 16 X 2.90 C/14PZ (TK-ST)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304285,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "TKS-11",
+      "descripcion": "LAMBRIN INTERIOR RIO 24MM 16 X 2.90 C/14PZ (TK-ST)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 304285,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "TKS-03",
+      "descripcion": "PLACA TIPO MARMOL AGATA 1/C 3MM 1.22 X 2.44 (TK-ST)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 304285,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "CUBR88",
+      "descripcion": "MELA-MDF (D37) MARQUINA TX. 1/C 5MM 1.22 X 2.44 (CUBRICA)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 194445,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ASIG19",
+      "descripcion": "MELA-MDF CAOBA TX. 2/C 15MM 1.22 X 2.44 (ASIGMA)",
+      "tipo": "Salida",
+      "cantidad": 4,
+      "ticket": 194441,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "ARA41",
+      "descripcion": "MELA-AGLO. OPORTO TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
+      "tipo": "Salida",
+      "cantidad": 2,
+      "ticket": 304284,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "TKS-05",
+      "descripcion": "PLACA TIPO MARMOL ZAFIRO 1/C 3MM 1.22 X 2.44 (TK-ST)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 194411,
+      "razon": "RT"
+    },
+    {
+      "fechaSerial": 46156,
+      "fecha": "2026-05-14",
+      "codigo": "TKS-47",
+      "descripcion": "PLACA TIPO MARMOL ONIX 1/C 3MM 1.22 X 2.44 (TK-ST)",
+      "tipo": "Salida",
+      "cantidad": 1,
+      "ticket": 194411,
+      "razon": "RT"
     },
     {
       "fechaSerial": 46155,
@@ -140561,14 +141001,14 @@
     {
       "codigo": "ARA06",
       "descripcion": "MELA-AGLO. BCO. FROSTY MATE 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "movimientos": 276,
-      "cantidad": 4823
+      "movimientos": 277,
+      "cantidad": 4833
     },
     {
       "codigo": "ARA68",
       "descripcion": "MELA-MDF BCO. FROSTY MATE 2/C 15MM 1.22 X 2.44 (ARAUCO)",
-      "movimientos": 368,
-      "cantidad": 2393
+      "movimientos": 371,
+      "cantidad": 2406
     },
     {
       "codigo": "ARA132",
@@ -140663,14 +141103,14 @@
     {
       "codigo": "ARA31",
       "descripcion": "MELA-AGLO. MONARCA  TX. 2/C 16MM 1.22 X 2.44 (ARAUCO)",
-      "movimientos": 35,
-      "cantidad": 505
+      "movimientos": 36,
+      "cantidad": 512
     },
     {
       "codigo": "NAV14",
       "descripcion": "MELA-MDF POLAR TX. 2/C  15MM  1.22 X 2.44 (NAVETTA)",
-      "movimientos": 116,
-      "cantidad": 493
+      "movimientos": 117,
+      "cantidad": 501
     },
     {
       "codigo": "NAV24",
@@ -140693,8 +141133,8 @@
     {
       "codigo": "NAV19",
       "descripcion": "MELA-MDF NOGAL TX 2/C 15MM 1.22 X 2.44 (NAVETTA)",
-      "movimientos": 43,
-      "cantidad": 401
+      "movimientos": 44,
+      "cantidad": 403
     },
     {
       "codigo": "asig16",
@@ -140703,27 +141143,27 @@
       "cantidad": 391
     },
     {
-      "codigo": "ARA64",
-      "descripcion": "MELA-MDF BCO. FROSTY MATE  2/C 18MM 1.22 X 2.44 (ARAUCO)",
-      "movimientos": 63,
-      "cantidad": 375
+      "codigo": "TKS-03",
+      "descripcion": "PLACA TIPO MARMOL AGATA 1/C 3MM 1.22 X 2.44 (TK-ST)",
+      "movimientos": 178,
+      "cantidad": 377
     }
   ],
   "reasons": [
     {
       "razon": "PD",
-      "movimientos": 4423,
-      "cantidad": 23501
+      "movimientos": 4444,
+      "cantidad": 23576
     },
     {
       "razon": "RT",
-      "movimientos": 3736,
-      "cantidad": 16395
+      "movimientos": 3750,
+      "cantidad": 16420
     },
     {
       "razon": "LG",
-      "movimientos": 1754,
-      "cantidad": 9513
+      "movimientos": 1763,
+      "cantidad": 9577
     },
     {
       "razon": "Traspasos enviados a tienda",
