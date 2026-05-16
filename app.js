@@ -3,6 +3,26 @@ let dashboard = null;
 const $ = (selector) => document.querySelector(selector);
 const normal = (value) => String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase();
 const moneylessNumber = (value) => Number(value || 0).toLocaleString("es-MX");
+const THEME_KEY = "dashboard-vias-theme";
+
+function applyTheme(theme) {
+  const isDark = theme === "dark";
+  document.documentElement.classList.toggle("dark", isDark);
+  $("#themeBtn").textContent = isDark ? "Modo claro" : "Modo oscuro";
+  $("#themeBtn").setAttribute("aria-pressed", String(isDark));
+}
+
+function loadTheme() {
+  const savedTheme = localStorage.getItem(THEME_KEY);
+  const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  applyTheme(savedTheme || (prefersDark ? "dark" : "light"));
+}
+
+function toggleTheme() {
+  const nextTheme = document.documentElement.classList.contains("dark") ? "light" : "dark";
+  localStorage.setItem(THEME_KEY, nextTheme);
+  applyTheme(nextTheme);
+}
 
 function todayIso(offsetDays = 0) {
   const date = new Date();
@@ -210,6 +230,7 @@ document.querySelectorAll(".tab").forEach((button) => {
 });
 
 $("#refreshBtn").addEventListener("click", loadData);
+$("#themeBtn").addEventListener("click", toggleTheme);
 $("#inventorySearch").addEventListener("input", renderInventory);
 $("#movementSearch").addEventListener("input", renderMovements);
 $("#advancedTicket").addEventListener("input", renderAdvancedSearch);
@@ -222,6 +243,7 @@ $("#advancedReason").addEventListener("change", renderAdvancedSearch);
 $("#providerSelect").addEventListener("change", renderProviders);
 $("#duplicateSearch").addEventListener("input", renderDuplicates);
 
+loadTheme();
 loadData().catch((error) => {
   $("#status").textContent = `Error: ${error.message}`;
 });
