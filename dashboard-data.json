@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-16T19:53:24.259Z",
+  "generatedAt": "2026-05-18T15:19:37.968Z",
   "excelPath": "C:\\Users\\HP 800 G4\\Desktop\\Trabajo\\DashboardVias-Web\\1.ViasUnificado1.xlsm",
   "inventory": [
     {
@@ -3852,7 +3852,7 @@
       "segmento": "MDF",
       "codigo": "MDF78",
       "descripcion": "MDF BCO 2/C 3MM 1.22 X 2.44",
-      "stock": 0
+      "stock": 1
     },
     {
       "segmento": "MELA",
@@ -5686,6 +5686,16 @@
     }
   ],
   "movements": [
+    {
+      "fechaSerial": 46160,
+      "fecha": "2026-05-18",
+      "codigo": "MDF78",
+      "descripcion": "MDF BCO 2/C 3MM 1.22 X 2.44",
+      "tipo": "Entrada",
+      "cantidad": 1,
+      "ticket": 356938,
+      "razon": "ENVIADO DE TIENDA"
+    },
     {
       "fechaSerial": 46158,
       "fecha": "2026-05-16",
@@ -142722,8 +142732,8 @@
     },
     {
       "razon": "ENVIADO DE TIENDA",
-      "movimientos": 33,
-      "cantidad": 65
+      "movimientos": 34,
+      "cantidad": 66
     },
     {
       "razon": "COMSA",

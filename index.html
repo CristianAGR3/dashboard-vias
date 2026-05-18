@@ -23,6 +23,7 @@
       <button class="tab" data-tab="movimientos">Movimientos</button>
       <button class="tab" data-tab="busqueda">Busqueda avanzada</button>
       <button class="tab" data-tab="proveedores">Proveedores</button>
+      <button class="tab" data-tab="reportes">Reportes</button>
       <button class="tab" data-tab="duplicados">Duplicados</button>
       <button class="tab" data-tab="mermas">Mermas</button>
     </nav>
@@ -98,6 +99,37 @@
             <div id="providerEntries" class="table-wrap"></div>
           </section>
         </div>
+      </section>
+
+      <section id="reportes" class="panel">
+        <section class="surface report-builder">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Generador</p>
+              <h2>Reportes profesionales</h2>
+            </div>
+            <div class="report-actions">
+              <button id="reportPdfBtn" class="icon-button" type="button">Descargar PDF</button>
+              <button id="reportExcelBtn" class="icon-button" type="button">Descargar Excel</button>
+            </div>
+          </div>
+
+          <div class="filters report-filters">
+            <select id="reportType" class="input">
+              <option value="movements">Movimientos generales</option>
+              <option value="providers">Movimientos de proveedores</option>
+            </select>
+            <input id="reportFrom" class="input" type="date">
+            <input id="reportTo" class="input" type="date">
+            <select id="reportProvider" class="input">
+              <option value="">Todos los proveedores</option>
+            </select>
+            <input id="reportSearch" class="input" placeholder="Codigo, descripcion, ticket o factura">
+          </div>
+
+          <div id="reportSummary" class="summary-strip"></div>
+          <div id="reportPreview" class="report-preview"></div>
+        </section>
       </section>
 
       <section id="duplicados" class="panel">
